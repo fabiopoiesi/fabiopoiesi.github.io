@@ -6,7 +6,9 @@ Author URI: http://www.os-templates.com/
 Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
-body{margin:0; padding:0; font-size:14px; font-family:"Droid Sans"; color:rgb(255,255,255); background-color:rgb(255,255,255);} /* background color of the body*/
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+
+body{margin:0; padding:0; font-size:14px; font-family:"Open Sans"; color:rgb(255,255,255); background-color:rgb(255,255,255);} /* background color of the body*/
 
 .clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
 .clear{display:block; width:100%; clear:both;}
@@ -15,7 +17,7 @@ html[xmlns] .clear{display:block;}
 
 a{outline:none; text-decoration:none;}
 
-code{font-weight:normal; font-style:normal; font-family:"Droid Sans";}
+code{font-weight:normal; font-style:normal; font-family:"Open Sans";}
 
 .fl_left{float:left;}
 .fl_right{float:right;}

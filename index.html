@@ -1,1 +1,276 @@
-Hello World
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    
+<head>
+<title>fabio-poiesi | Home</title>
+<meta charset="iso-8859-1">
+
+<!-- header to enable javascript -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+<!-- header to import css files -->
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+<!-- header to enable javascript -->
+<script type='text/javascript'>
+    $(function(){
+      $('#disapp_menu u').css({cursor: "pointer"}).on('click', function(){
+          $(this).next('em').toggle();
+          })
+      });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58999519-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+<!----------------------------->
+<!----------------------------->
+<!----------------------------->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>Home</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="datasets.html">Datasets</a></li>
+        <li class="last"><a href="about.html">About me</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </header>
+</div>
+
+
+<!----------------------------->
+<!----------------------------->
+<!----------------------------->
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container">
+      
+    <!----------------------------->
+    <!----------------------------->
+    <!-- content body -->
+    <div id="content">
+      <!-- section 1 -->
+      <section>
+      <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>ECCV Workshop on Benchmarking Multi-target Tracking 2016</h2>
+          <time datetime="2012-04-06T08:15+00:00">Tue, 29<sup>th</sup> Aug 2016</time>
+          <p style="margin:5px;">
+          <div id="disapp_menu"><p align="justify">
+              My paper titled "Online multi-target tracking with strong and weak detections (<a target="_blank" href="./files/papers/conferences/2016_ECCVW_MultiTargetTrackingEarlyStrongDetections_Matilla_Poiesi_Cavallaro.pdf">link</a>)" (R. Sanchez Matilla, F. Poiesi and A. Cavallaro) has been accepted in the European Conference on Computer Vision Workshop (<a target="_blank" href="http://www.eccv2016.org/">ECCV</a> - <a target="_blank" href="https://motchallenge.net/workshops/bmtt2016/index.html">Benchmarking Multi-target Tracking: MOTChallenge 2016</a>). We participated to the challenge with a new multi-object tracker based on Probability Hypothesis Density Particle Filter (we named it EAMTT). At submission date EAMTT had the best online tracking results overall in MOT15 and MOT16 among the public trackers. Today (29/08) EAMTT is still ranked first in <a target="_blank" href="https://motchallenge.net/results/2D_MOT_2015/">MOT15</a> and is ranked second in <a target="_blank" href="https://motchallenge.net/results/MOT16/">MOT16</a>. - <u>Abstract</u><em> <font color="gray">- We propose an online multi-target tracker that exploits both high and low confidence target detections in a Probability Hypothesis Density Particle Filter framework. High-confidence (strong) detections are used for label propagation and target initialization. Low-confidence (weak) detections only support the propagation of labels, i.e. tracking existing targets. Moreover, we perform data association just after the prediction stage thus avoiding the need for computationally expensive labelling procedures such as clustering. Finally, we perform sampling by considering the perspective distortion in the target observations. The proposed tracker runs on average at 12 frames per second. Results show that our method outperforms alternative online trackers on the Multiple Object Tracking 2016 and 2015 benchmark datasets in terms tracking accuracy, false negatives and speed.</font></em></div></p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Oral presentation at BMVC</h2>
+          <time datetime="2012-04-06T08:15+00:00">Tue, 23<sup>rd</sup> Aug 2016</time>
+          <p style="margin:5px;">
+          <div id="disapp_menu"><p align="justify">
+              My paper titled "Detection of fast incoming objects with a moving camera (<a target="_blank" href="./files/papers/conferences/2016_BMVC_DetectionFastIncomingObjects_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted as oral presentation in British Machine Vision Conference (<a target="_blank" href="http://bmvc2016.cs.york.ac.uk/">BMVC</a>). Have a look to the <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/avoidance.html">project page</a> for videos (and soon code!). - <u>Abstract</u><em> <font color="gray">- Using a monocular camera for early collision detection in cluttered scenes to elude fast incoming objects  is a desirable but challenging functionality for mobile robots, such as small drones. We present a novel moving object detection and avoidance algorithm for an uncalibrated camera that uses only the optical flow to predict collisions. First, we estimate the optical flow and compensate the global camera motion. Then we detect incoming objects while removing the noise caused by dynamic textures, nearby terrain and lens distortion by means of an adaptively learnt background-motion model. Next, we estimate the time to contact, namely the expected time for an incoming object to cross the infinite plane defined by the extension of the image plane. Finally, we combine the time to contact and the compensated motion in a Bayesian framework to identify an object-free region the robot can move towards to avoid the collision. We demonstrate and evaluate the  proposed algorithm using footage of flying robots that observe fast incoming objects such as birds, balls and other drones.</font></em></div></p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+      <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Paper accepted in IEEE Trans. on Circuits and Systems for Video Technology</h2>
+          <time datetime="2012-04-06T08:15+00:00">Sat, 21<sup>st</sup> May 2016</time>
+          <p style="margin:5px;">
+          <div id="disapp_menu"><p align="justify">
+              My paper titled "Support Vector Motion Clustering (<a target="_blank" href="./files/papers/journals/2016_CSVT_SupportVectorMotionClustering_LawalPoiesiAnguitaCavallaro.pdf">link</a>)" (I.A. Lawal, F. Poiesi, D. Anguita and A. Cavallaro) has been accepted in IEEE Trans. on Circuits and Systems for Video Technology (<a target="_blank" href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>). - <u>Abstract</u><em> <font color="gray">- We present a closed-loop unsupervised clustering method for motion vectors extracted from highly dynamic video scenes. Motion vectors are assigned to non-convex homogeneous clusters characterizing direction, size and shape of regions with multiple independent activities. The proposed method is based on Support Vector Clustering (SVC). Cluster labels are propagated over time via incremental learning. The proposed method uses a kernel function that maps the input motion vectors into a high-dimensional space to produce non-convex clusters. We improve the mapping effectiveness by quantifying feature similarities via a blend of position and orientation affinities. We use the Quasiconformal Kernel Transformation to boost the discrimination of outliers. The temporal propagation of the clusters' identities is achieved via incremental learning based on the concept of feature obsolescence to deal with appearing and disappearing features. Moreover, we design an on-line clustering performance prediction algorithm used as a feedback (closed-loop) that refines the cluster model at each frame in an unsupervised manner. We evaluate the proposed method on synthetic datasets and real-world crowded videos, and show that our solution outperforms state-of-the-art approaches.</font></em></div></p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Best online multi-target tracker on MOT challenge</h2>
+          <time datetime="2012-04-06T08:15+00:00">Wed, 16<sup>th</sup> Dec 2015</time>
+          <p style="margin:5px;">
+          <p align="justify">We recently submitted our results to the <a target="_blank" href="https://motchallenge.net/">Multi Object Tracking challenge</a> and we ranked as <b>first</b> with our new Probability Hypothesis Density Particle Filter (PHD_PF) in the category of online trackers (second overall). Check the results out at these links <a target="_blank" href="https://motchallenge.net/results/2D_MOT_2015/">1</a>, <a target="_blank" href="https://motchallenge.net/tracker/PHD_PF">2</a>. Merry Christmas!</p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Presentation at London Big-O Meetup</h2>
+          <time datetime="2012-04-06T08:15+00:00">Wed, 4<sup>th</sup> Nov 2015</time>
+          <p style="margin:5px;">
+          <p align="justify">I have been invited to present my work about formations of flying cameras to film a moving target at the London Big-O Meetup on Mon 9<sup>th</sup> (<a target="_blank" href="http://www.meetup.com/big-o-london/events/226338580/">link1</a>, <a target="_blank" href="https://skillsmatter.com/meetups/7483-unmanned-aircraft-system-concept-design-and-formations-of-flying-cameras-to-film-a-moving-target#overview">link2</a>). Just RSVP yourself if you want to attend. Before my presentation there will be Amrith presenting his work about conceptual design of Unmanned Aircraft Systems that considers communication systems, payload systems, propulsion system, avionics architecture, and many others. Presentations will start at 18.30.</p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Paper accepted at IROS 2015</h2>
+          <time datetime="2012-04-06T08:15+00:00">Wed, 29<sup>th</sup> Jul 2015</time>
+          <p style="margin:5px;">
+          <div id="disapp_menu"><p align="justify">
+              My paper titled "Distributed vision-based flying cameras to film a moving target (<a target="_blank" href="./files/papers/conferences/2015_IROS_DistributedFlyingCamerasFilmTarget_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted  to the IEEE/RSJ International Conference on Intelligent Robots and Systems (<a target="_blank" href="http://www.iros2015.org/">IROS</a>) 2015 held in Hamburg, Germany - <u>Abstract</u><em> <font color="gray">- Formations of camera-equipped quadrotors (flying cameras) have the actuation agility to track moving targets from multiple viewing angles. In this paper we propose a solution for the infrastructure-free distributed control of multiple flying cameras tracking an object. The proposed approach is a vision-based servoing that can deal with noisy and missing target observations, accounts for the quadrotor oscillations and does not require an external positioning system. The flight direction of each camera is inferred via geometric derivation, and the formation is maintained by employing a distributed algorithm that uses the information of the target position on the camera plane and the position of neighboring flying cameras. Simulations show that the proposed solution allows the tracking of a moving target by the cameras flying in formation also with noisy target detections, and when the target is outside some of fields of view or lost for a few frames.</font></em></div></p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+            <h2>Multi-target trajectory 3D visualiser is ONLINE</h2>
+            <time datetime="2012-04-06T08:15+00:00">Mon, 4<sup>th</sup> May 2015</time>
+            <p style="margin:5px;">
+            <p align="justify">The alpha web-version of the 3D visualiser for multi-target tracking results is <a target="_blank" href="http://3dviz.eecs.qmul.ac.uk">online</a>! If you like, there is a 2-minute <a target="_blank" href="https://www.youtube.com/watch?v=t-onJx4fGAc">video</a> on Youtube to briefly understand what I am talking about. You can upload your stuff and the visualiser will help you analysing, debugging and showing your results for scientific reports or papers. The visualiser appeared on this <a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">paper</a>. Just drop me an <a target="_blank" href="about.html">email</a> if you are interested in it, I will give you further details and make an account for you. Believe me that the visualiser will change your life :)</p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Paper accepted at ISSNIP 2015</h2>
+          <time datetime="2012-04-06T08:15+00:00">Mon, 16<sup>th</sup> Mar 2015</time>
+          <p style="margin:5px;">
+          <div id="disapp_menu"><p align="justify">
+              My paper titled "Self-positioning of a team of flying smart cameras (<a target="_blank" href="./files/papers/conferences/2015_ISSNIP_SelfPositioningTeamFlyingCameras_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted  to the IEEE 10<sup>th</sup> International Conference on Intelligent Sensors, Sensor Networks and Information Processing (<a target="_blank" href="http://issnip2015.org/#/">ISSNIP</a>) 2015 held in Singapore - <u>Abstract</u><em> <font color="gray">- Quadcopters are highly maneuverable and can provide an effective means for an agile dynamic positioning of sensors such as cameras. In this paper we propose a method for the self-positioning of a team of camera-equipped quadcopters (flying cameras) around a moving target. The self-positioning task is driven by the maximization of the monitored surface of the moving target based on a dynamic flight model combined with a collision avoidance algorithm. Each flying camera only knows the relative distance of neighboring flying cameras and its desired position with respect to the target. Given a team of up to 12 flying cameras, we show they can achieve a stable time-varying formation around a moving target without collisions.</font></em></div></p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+      <!----------------------------->
+        <!-- article -->
+        <article>
+            <h2>ARTEMIS Co-summit and VISIGRAPP</h2>
+            <time datetime="2012-04-06T08:15+00:00">Sat, 07<sup>th</sup> Jan 2015</time>
+            <p style="margin:5px;">
+            <p align="justify">I am going to be in Berlin (GE) from the 9<sup>th</sup> to the 14<sup>th</sup> March attending the <a target="_blank" href="https://artemis-ia.eu/co-summit-2015/index.html">Artemis Co-summit 2015</a> (10/03-11/03) and <a target="_blank" href="http://www.visigrapp.org/">VISIGRAPP 2015</a> (11/03-14/03). I will be at the booth of <a target="_blank" href="http://copcams.eu">COPCAMS</a> during the Co-summit and at VISIGRAPP presenting the newly published 3D visualiser for tracking results (<a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">link</a>).</p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+
+        <!----------------------------->
+        <!-- article -->
+        <article>
+          <h2>Paper accepted at IVAPP 2015</h2>
+          <time datetime="2012-04-06T08:15+00:00">Mon, 29<sup>th</sup> Dec 2014</time>
+          <p style="margin:5px;">
+          <div id="disapp_menu"><p align="justify">
+              My paper titled "MTTV: an interactive trajectory visualization and analysis tool (<a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted  to the 6<sup>th</sup> International Conference on Information Visualization Theory and Applications (<a target="_blank" href="http://www.ivapp.visigrapp.org/">IVAPP</a>) 2015 held in Berlin, Germany - <u>Abstract</u><em> <font color="gray">- We present an interactive visualizer that enables the exploration, measurement, analysis and manipulation of trajectories. Trajectories can be generated either automatically by multi-target tracking algorithms or manually by human annotators. The visualizer helps understanding the behavior of targets, correcting tracking results and quantifying the performance of tracking algorithms. The input video can be overlaid to compare ideal and estimated target locations. The code of the visualizer (C++ with openFrameworks) is open source.</font></em></div></p>
+        </article>
+        <p style="margin:20px;">
+        <!----------------------------->
+        
+        <!----------------------------->
+        <!-- article -->
+        <article>
+            <h2>New website</h2>
+            <time datetime="2012-04-06T08:15+00:00">Mon, 29<sup>th</sup> Dec 2014</time>
+            <p style="margin:5px;">
+            <p align="justify">Welcome to my new website! I will do my best to keep it updated. In Home you will find all my recent activities and news. In Publications the list of my published works. In Data I will organise links to datasets that could be useful for different applications. In About me a brief description of who I am. I hope you will find this website useful :) I currently tested the website on <b>Chrome</b>, <b>FireFox</b> and <b>Safari</b>. So please use these browsers to make sure you have the best view of it.</p>
+        </article>
+        <!----------------------------->
+
+      </section>
+    </div>
+    
+    <!----------------------------->
+    <!----------------------------->
+    <!-- right column -->
+    <aside id="right_column">
+    <h2 class="title">Highlights</h2>
+    <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/fyET9AwJQQM?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+    <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/D6ZX3czVTbk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/zNuabwxDBHk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/-4i0qg9DdGg?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/pp8HQEQ-INU?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/HDY44MLzRoA?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/pckFacsIWg4?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+    </aside>
+    <!----------------------------->
+    <!----------------------------->
+    <!-- / content body -->
+    <dxiv class="clear"></div>
+  </div>
+</div>
+
+<!----------------------------->
+<!----------------------------->
+<!----------------------------->
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer">
+    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">fabio-poiesi.com</a></p>
+    <p class="fl_right">Thanks to <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <div class="clear"></div>
+  </footer>
+</div>
+</body>
+
+</html>

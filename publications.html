@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    
+<head>
+<title>fabio-poiesi | Publications</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+    
+<!-- header to enable javascript -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+
+<script type='text/javascript'>
+    $(function(){
+      $('#disapp_menu u')
+      .css({cursor: "pointer"})
+      .on('click', function(){
+          $(this).next('em').toggle();
+          })
+    });
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-58999519-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+<!----------------------------->
+<!----------------------------->
+<!----------------------------->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>Publications</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="presentations.html">Presentations</a></li>
+        <li><a href="datasets.html">Datasets</a></li>
+        <li class="last"><a href="about.html">About me</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+  </header>
+</div>
+
+<!----------------------------->
+<!----------------------------->
+<!----------------------------->
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container">
+
+    <!----------------------------->
+    <!----------------------------->
+    <!-- content body -->
+    <div id="content">
+        <section>
+            <p  align="justify"><em><font size="1">Copyright disclaimer: This material is presented to ensure timely dissemination of scholarly and technical work. Copyright and all rights therein are retained by authors or by other copyright holders. All persons copying this information are expected to adhere to the terms and constraints invoked by each author's copyright. In most cases, these works may not be reposted without the explicit permission of the copyright holder.</font></em></p>
+        </section>
+      <!-- section 1 -->
+      <section  class="last clear">
+
+
+        <!----------------------------->
+        <!--Journal papers-->
+        <article>
+          <h2>Journal papers</h2>
+          <ul>
+              <li><em>Support Vector Motion Clustering</em><br>
+                  I.A. Lawal, F. Poiesi, D. Anguita, A. Cavallaro<br>
+                  IEEE Trans. on Circuits and Systems for Video Technology, DOI: 10.1109/TCSVT.2016.2580401<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present a closed-loop unsupervised clustering method for motion vectors extracted from highly dynamic video scenes. Motion vectors are assigned to non-convex homogeneous clusters characterizing direction, size and shape of regions with multiple independent activities. The proposed method is based on Support Vector Clustering (SVC). Cluster labels are propagated over time via incremental learning. The proposed method uses a kernel function that maps the input motion vectors into a highdimensional space to produce non-convex clusters. We improve the mapping effectiveness by quantifying feature similarities via a blend of position and orientation affinities. We use the Quasiconformal Kernel Transformation to boost the discrimination of outliers. The temporal propagation of the clusters’ identities is achieved via incremental learning based on the concept of feature obsolescence to deal with appearing and disappearing features. Moreover, we design an on-line clustering performance prediction algorithm used as a feedback (closed-loop) that refines the cluster model at each frame in an unsupervised manner. We evaluate the proposed method on synthetic datasets and real-world crowded videos, and show that our solution outperforms state-of-the-art approaches</font></em>, <a target="_blank" href="./files/papers/journals/2016_CSVT_SupportVectorMotionClustering_LawalPoiesiAnguitaCavallaro.pdf">pdf</a>, <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/svmc.html">website</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+              <li><em>Tracking multiple high-density homogeneous targets</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  IEEE Trans. on Circuits and Systems for Video Technology, vol. 25, no. 4, pp. 623-637, Apr 2015<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present a framework for multi-target detection and tracking that infers candidate target locations in videos containing a high density of homogeneous targets. We propose a gradient-climbing technique and an isocontour slicing approach for intensity maps to localize targets. The former uses Markov Chain Monte Carlo to iteratively fit a shape model onto the target locations, whereas the latter uses the intensity values at different levels to find consistent object shapes. We generate trajectories by recursively associating detections with a hierarchical graph-based tracker on temporal windows. The solution to the graph is obtained with a greedy algorithm that accounts for false positive associations. The edges of the graph are weighted with a likelihood function based on location information. We evaluate the performance of the proposed framework on challenging datasets containing videos with high density of targets and compare it with six alternative trackers</font></em>, <a target="_blank" href="./files/papers/journals/2014_CSVT_TrackingMultiHDHTargets_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="https://www.youtube.com/watch?v=zNuabwxDBHk">video</a>, <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/thdt.html">website</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              
+              <li><em>Predicting and recognizing human interactions in public spaces</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  Journal of Real-Time Image Processing, Springer, vol. 10, no. 4, pp. 785-803, Dec 2015<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present an extensive survey of methods for recognizing human interactions and propose a method for predicting rendezvous areas in observable and unobservable regions using sparse motion information. Rendezvous areas indicate where people are likely to interact with each other or with static objects (e.g., a door, an information desk or a meeting point). The proposed method infers the direction of movement by calculating prediction lines from displacement vectors and temporally accumulates intersecting locations generated by prediction lines. The intersections are then used as candidate rendezvous areas and modeled as spatial probability density functions using Gaussian Mixture Models. We validate the proposed method to predict dynamic and static rendezvous areas on real-world datasets and compare it with related approaches</font></em>, <a target="_blank" href="./files/papers/journals/2014_JRTIP_PredictingRecognizingInteractionsPublic_Poiesi_Cavallaro.pdf">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              
+              <li><em>Measures of effective video tracking</em><br>
+                  T. Nawaz, F. Poiesi, A. Cavallaro<br>
+                  IEEE Trans. on Image Processing, vol. 23, no. 1, pp. 376-388, Jan 2014<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - To evaluate multi-target video tracking results, one needs to quantify the accuracy of the estimated target-size and the cardinality error as well as measure the frequency of occurrence of ID changes. In this paper we survey existing multi-target tracking performance scores and, after discussing their limitations, we propose three parameter-independent measures for evaluating multi-target video tracking. The measures take into account target-size variations, combine accuracy and cardinality errors, quantify long-term tracking accuracy at different accuracy levels, and evaluate ID changes relative to the duration of the track in which they occur. We conduct an extensive experimental validation of the proposed measures by comparing them with existing ones and by evaluating four state-of-the-art trackers on challenging real-world publicly-available datasets. The software implementing the proposed measures is made available online to facilitate their use by the research community</font></em>, <a target="_blank" href="./files/papers/journals/2014_TIP_MultiTargetTrackingEvaluation_Tahir_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="https://www.youtube.com/watch?v=pp8HQEQ-INU">video</a>, <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/mtte.html">website</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              
+              <li><em>Multi-target tracking on confidence maps: an application to people tracking</em><br>
+                  F. Poiesi, R. Mazzon, A. Cavallaro<br>
+                  Computer Vision and Image Understanding, Elsevier, vol. 117, no. 10, pp. 1257-1272, Oct 2013<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We propose a generic online multi-target track-before-detect (MT-TBD) that is applicable on confidence maps used as observations. The proposed tracker is based on particle filtering and automatically initializes tracks. The main novelty is the inclusion of the target ID into the particle state, enabling the algorithm to deal with unknown and large number of targets. To overcome the problem of mixing IDs of targets close to each other, we propose a probabilistic model of target birth and death based on a Markov Random Field applied to the particle IDs. Each particle ID is managed using the information carried by neighboring particles. The assignment of the IDs to the targets is performed using Mean-Shift clustering and supported by a Gaussian Mixture Model. We also show that the computational complexity of MT-TBD is proportional only to the number of particles. To compare our method with recent state-of-the-art works, we include a postprocessing stage suited for multi-person tracking. We validate the method on real-world and crowded scenarios, and demonstrate its robustness in scenes presenting different perspective views and targets very close to each other</font></em>, <a target="_blank" href="./files/papers/journals/2013_CVIU_MultiTargetTracking_Poiesi_Mazzon_Cavallaro.pdf">pdf</a>, <a target="_blank" href="https://www.youtube.com/watch?v=-4i0qg9DdGg">video</a>
+                  </div>
+              </li>
+              
+          </ul>
+        </article>
+        
+        <!----------------------------->
+        <!--Book chapters-->
+        <article>
+          <h2>Book chapters</h2>
+          <ul>
+              <li><em>Towards cognitive and perceptive video systems</em><br>
+                  T. Akgun, C. Attwood, A. Cavallaro, C. Fabre, F. Poiesi, P. Szczuko<br>
+                  Human Behaviour Understanding in Networked Sensing, Springer, Dec 2014<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - In this chapter we cover research and development issues related to smart cameras. We discuss challenges, new technologies and algorithms, applications and the evaluation of today's technologies. We will cover problems related to software, hardware, communication, embedded and distributed systems, multi-modal sensors, privacy and security. We also discuss future trends and market expectations from the customer's point of view</font></em>, <a target="_blank" href="./files/papers/book_chap/2014_HBU_TowardsCognitiveAndPerceptive_Akgun_Attwood_Cavallaro_Fabre_Poiesi_Szczuko.pdf">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              
+              <li><em>Multi-target tracking in video</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  Academic Press Library in Signal Processing: Volume 4, (Ed. S. Theodoridis), Elsevier, Sep 2013<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - Multi-target tracking in video helps in gathering information from motion patterns to describe behaviors (e.g. sport team formations), to detect events of interest (e.g. crossing streets in forbidden locations) and to facilitate content retrieval (e.g. automatic highlights generation). Several challenges affect multi-target tracking, including color and shape similarities, occlusions and abrupt motion variations. We define a generic flow diagram that we use to discuss and compare the main stages of multi-target trackers, namely feature extraction, target prediction, localization or association, and post-processing. Trackers may also learn about the environment they operate in (contextual information) and update the target model they use in order to enhance the localization task. We finally summarize the properties of the surveyed multi-target trackers and introduce open research problems in video tracking research</font></em>, <a target="_blank" href="./files/papers/book_chap/2014_APLSP_MTT_in_video_Poiesi_Cavallaro.pdf">pdf</a>
+                  </div>
+              </li>
+          </ul>
+        </article>
+        <!-- / articles -->
+      
+      <!----------------------------->
+      <!--Conference papers-->
+      <article>
+          <h2>Conference papers</h2>
+          <ul>
+          <li><em>Cloud-based collaborative 3D reconstruction using smartphones</em><br>
+                  F. Poiesi, A. Locher, P. Chippendale, E. Nocerino, F. Remondino, L. Van Gool<br>
+                  European Conference on Visual Media Production (CVMP), London, UK, Dec 2017 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - This article presents a pipeline that enables multiple users to collaboratively acquire images with monocular smartphones and derive a 3D point cloud using a remote reconstruction server. A set of key images are automatically selected from each smartphone's camera video feed as multiple users record different viewpoints of an object, concurrently or at different time instants. Selected images are automatically processed and registered with an incremental Structure from Motion (SfM) algorithm in order to create a 3D model. Our incremental SfM approach enables on-the-fly feedback to the user to be generated about current reconstruction progress. Feedback is provided in the form of a preview window showing the current 3D point cloud, enabling users to see if parts of a surveyed scene need further attention/coverage whilst they are still in situ. We evaluate our 3D reconstruction pipeline by performing experiments in uncontrolled and unconstrained real-world scenarios. Datasets are publicly available</font></em>, <a target="_blank" href="./files/papers/conferences/2017_CVMP_CloudBasedCollaborativeReconstruction_Poiesi_Locher_Chippendale.pdf">pdf</a>, <a target="_blank" href="https://www.youtube.com/watch?v=bobWgdLtzIg">video</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+          <li><em>Towards gesture-based multi-user interactions in collaborative virtual environments</em><br>
+                  N. Pretto, F. Poiesi<br>
+                  Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLII-2-W8, 203-208, 2017 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present a virtual reality (VR) setup that enables multiple users to participate in collaborative virtual environments and interact via gestures. A collaborative VR session is established through a network of users that is composed of a server and a set of clients. The server manages the communication amongst clients and is created by one of the users. Each user's VR setup consists of a Head Mounted Display (HMD) for immersive visualisation, a hand tracking system to interact with virtual objects and a single-hand joypad to move in the virtual environment. We use Google Cardboard as a HMD for the VR experience and a Leap Motion for hand tracking, thus making our solution low cost. We evaluate our VR setup though a forensics use case, where real-world objects pertaining to a simulated crime scene are included in a VR environment, acquired using a smartphone-based 3D reconstruction pipeline. Users can interact using virtual gesture-based tools such as pointers and rulers</font></em>, <a target="_blank" href="./files/papers/conferences/2017_LOWCOST3D_GestureBasedCollaborativeVR_Pretto_Poiesi.pdf">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+          <li><em>3D Reconstruction with a collaborative approach based on smartphones and a cloud-based server</em><br>
+                  E. Nocerino, F. Poiesi, A. Locher, Y.T. Tefera, F. Remondino, P. Chippendale, L. Van Gool<br>
+                  Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLII-2-W8, 187-194, 2017 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - The paper presents a collaborative image-based 3D reconstruction pipeline to perform image acquisition with a smartphone and geometric 3D reconstruction on a server during concurrent or disjoint acquisition sessions. Images are selected from the video feed of the smartphone’s camera based on their quality and novelty. The smartphone’s app provides on-the-fly reconstruction feedback to users co-involved in the acquisitions. The server is composed of an incremental SfM algorithm that processes the received images by seamlessly merging them into a single sparse point cloud using bundle adjustment. Dense image matching algorithm can be lunched to derive denser point clouds. The reconstruction details, experiments and performance evaluation are presented and discussed</font></em>, <a target="_blank" href="./files/papers/conferences/2017_LOWCOST3D_CollaborativeApproachBasedOnSmartphons_Nocerino_Poiesi_Locher.pdf">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+          <li><em>A Smartphone-based pipeline for the creative industry - The REPLICATE project</em><br>
+                  E. Nocerino, F. Lago, D. Morabito, F. Remondino, L. Porzi, F. Poiesi, S. Rota Bulo', P. Chippendale, A. Locher, M. Havlena, L. Van Gool, M. Eder, A. Fotschl, A. Hilsmann, L. Kausch, P. Eisert<br>
+                  Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLII-2/W3, 535-541, 2017 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - During the last two decades we have witnessed great improvements in ICT hardware and software technologies. Three-dimensional content is starting to become commonplace now in many applications. Although for many years 3D technologies have been used in the generation of assets by researchers and experts, nowadays these tools are starting to become commercially available to every citizen. This is especially the case for smartphones, that are powerful enough and sufficiently widespread to perform a huge variety of activities (e.g. paying, calling, communication, photography, navigation, localization, etc.), including just very recently the possibility of running 3D reconstruction pipelines. The REPLICATE project is tackling this particular issue, and it has an ambitious vision to enable ubiquitous 3D creativity via the development of tools for mobile 3D-assets generation on smartphones/tablets. This article presents the REPLICATE project's concept and some of the ongoing activities, with particular attention being paid to advances made in the first year of work. Thus the article focuses on the system architecture definition, selection of optimal frames for 3D cloud reconstruction, automated generation of sparse and dense point clouds, mesh modelling techniques and post-processing actions. Experiments so far were concentrated on indoor objects and some simple heritage artefacts, however, in the long term we will be targeting a larger variety of scenarios and communities</font></em>, <a target="_blank" href="./files/papers/conferences/2017_3DARCH_Smartphone3DpipelineREPLICATE.pdf">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+          <li><em>Online multi-target tracking with strong and weak detections</em><br>
+                  R. Sanchez Matilla, F. Poiesi, A. Cavallaro<br>
+                  European Conference on Computer Vision (ECCV): Benchmarking Multi-target Tracking: MOTChallenge 2016, Amsterdam, NL, Oct 2016 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We propose an online multi-target tracker that exploits both high and low confidence target detections in a Probability Hypothesis Density Particle Filter framework. High-confidence (strong) detections are used for label propagation and target initialization. Low-confidence (weak) detections only support the propagation of labels, i.e. tracking existing targets. Moreover, we perform data association just after the prediction stage thus avoiding the need for computationally expensive labelling procedures such as clustering. Finally, we perform sampling by considering the perspective distortion in the target observations. The proposed tracker runs on average at 12 frames per second. Results show that our method outperforms alternative online trackers on the Multiple Object Tracking 2016 and 2015 benchmark datasets in terms tracking accuracy, false negatives and speed</font></em>, <a target="_blank" href="./files/papers/conferences/2016_ECCVW_MultiTargetTrackingEarlyStrongDetections_Matilla_Poiesi_Cavallaro.pdf">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              <li><em>Detection of fast incoming objects with a moving camera</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  British Machine Vision Conference (BMVC), York, UK, Sep 2016 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - Using a monocular camera for early collision detection in cluttered scenes to elude fast incoming objects  is a desirable but challenging functionality for mobile robots, such as small drones. We present a novel moving object detection and avoidance algorithm for an uncalibrated camera that uses only the optical flow to predict collisions. First, we estimate the optical flow and compensate the global camera motion. Then we detect incoming objects while removing the noise caused by dynamic textures, nearby terrain and lens distortion by means of an adaptively learnt background-motion model. Next, we estimate the time to contact, namely the expected time for an incoming object to cross the infinite plane defined by the extension of the image plane. Finally, we combine the time to contact and the compensated motion in a Bayesian framework to identify an object-free region the robot can move towards to avoid the collision. We demonstrate and evaluate the  proposed algorithm using footage of flying robots that observe fast incoming objects such as birds, balls and other drones</font></em>, <a target="_blank" href="./files/papers/conferences/2016_BMVC_DetectionFastIncomingObjects_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/avoidance.html">website</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              <li><em>Distributed vision-based flying cameras to film a moving target</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  IEEE Proc. of Intelligent Robots and Systems (IROS), Hamburg, GE, Sep 2015 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - Formations of camera-equipped quadrotors (flying cameras) have the actuation agility to track moving targets from multiple viewing angles. In this paper we propose a solution for the infrastructure-free distributed control of multiple flying cameras tracking an object. The proposed approach is a vision-based servoing that can deal with noisy and missing target observations, accounts for the quadrotor oscillations and does not require an external positioning system. The flight direction of each camera is inferred via geometric derivation, and the formation is maintained by employing a distributed algorithm that uses the information of the target position on the camera plane and the position of neighboring flying cameras. Simulations show that the proposed solution allows the tracking of a moving target by the cameras flying in formation also with noisy target detections, and when the target is outside some of fields of view or lost for a few frames</font></em>, <a target="_blank" href="./files/papers/conferences/2015_IROS_DistributedFlyingCamerasFilmTarget_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="./files/presentations/presentation_iros_2015.pptx">slides</a>, <a target="_blank" href="https://www.youtube.com/watch?v=fyET9AwJQQM">video</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              <li><em>Self-positioning of a team of flying smart cameras</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  IEEE Proc. of Intelligent Sensors, Sensor Networks and Information Processing (ISSNIP), Singapore, Apr 2015 (Oral)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - Quadcopters are highly maneuverable and can provide an effective means for an agile dynamic positioning of sensors such as cameras. In this paper we propose a method for the self-positioning of a team of camera-equipped quadcopters (flying cameras) around a moving target. The self-positioning task is driven by the maximization of the monitored surface of the moving target based on a dynamic flight model combined with a collision avoidance algorithm. Each flying camera only knows the relative distance of neighboring flying cameras and its desired position with respect to the target. Given a team of up to 12 flying cameras, we show they can achieve a stable time-varying formation around a moving target without collisions</font></em>, <a target="_blank" href="./files/papers/conferences/2015_ISSNIP_SelfPositioningTeamFlyingCameras_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="./files/presentations/presentation_issnip_2015.pdf">slides</a>, <a target="_blank" href="https://www.youtube.com/watch?v=D6ZX3czVTbk">video</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+              <li><em>MTTV: an interactive trajectory visualization and analysis tool</em><br>
+                  F. Poiesi, A. Cavallaro<br>
+                  Proc. of Information Visualization Theory and Applications (IVAPP), Berlin, GE, Mar 2015 (Poster)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present an interactive visualizer that enables the exploration, measurement, analysis and manipulation of trajectories. Trajectories can be generated either automatically by multi-target tracking algorithms or manually by human annotators. The visualizer helps understanding the behavior of targets, correcting tracking results and quantifying the performance of tracking algorithms. The input video can be overlaid to compare ideal and estimated target locations. The code of the visualizer (C++ with openFrameworks) is open source</font></em>, <a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="./files/presentations/poster_ivapp_2015.pdf">poster</a>, <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/mttv.html">website</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              
+              <li><em>Assessing tracking assessment measures</em><br>
+                  T. Nawaz, F. Poiesi, A. Cavallaro<br>
+                  IEEE Proc. of Image Processing (ICIP), Paris, FR, Oct 2014 (Poster)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We propose a methodology to quantitatively compare the relative performance of tracking evaluation measures. The proposed methodology is based on determining the probabilistic agreement between tracking result decisions made by measures and those made by humans. We use tracking results on publicly available datasets with different target types and varying challenges, and collect the judgments of 90 skilled, semi-skilled and unskilled human subjects using a web-based performance assessment test. The analysis of the agreements allows us to highlight the variation in performance of the different measures and the most appropriate ones for the various stages of tracking performance evaluation</font></em>, <a target="_blank" href="./files/papers/conferences/2014_ICIP_AssessingTrackingMeasures_Nawaz_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="./files/presentations/poster_icip_2014.pdf">poster</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+
+              <li><em>Detection and tracking of groups in crowd</em><br>
+                  R. Mazzon, F. Poiesi, A. Cavallaro<br>
+                  IEEE Proc. of Advanced Video and Signal-Based Surveillance (AVSS), Krakow, PL, Aug 2013 (Poster)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We propose a method to detect and track interacting people by employing a framework based on a Social Force Model. The method embeds plausible human behaviors to predict interactions in a crowd by iteratively minimizing the error between predictions and measurements. We model people approaching a group and restrict the group formation based on the relative velocity of candidate group members. The detected groups are then tracked by linking their interaction centers over time using a buffered graph-based tracker. We show how the proposed framework outperforms existing group localization techniques on three publicly available datasets, with improvements of up to 13% on group detection</font></em>, <a target="_blank" href="./files/papers/conferences/2013_AVSS_DetAndTrackGroupsInCrowd_Mazzon_Poiesi_Cavallaro.pdf">pdf</a>, <a target="_blank" href="./files/presentations/poster_avss_2013.pdf">poster</a>, <a target="_blank" href="https://www.youtube.com/watch?v=HDY44MLzRoA">video</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              
+              <li><em>Detector-less ball localization using context and motion flow analysis</em><br>
+                  F. Poiesi, F. Daniyal, A. Cavallaro<br>
+                  IEEE Proc. of Image Processing (ICIP), Hong Kong, CN, Sep 2010 (Poster)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present a technique for estimating the location of the ball during a basketball game without using a detector. The technique is based on the analysis of the dynamics in the scene and allows us to overcome the challenges due to frequent occlusions of the ball and its similarity in appearance with the background. Based on the assumption that the ball is the point of focus of the game and that the motion flow of the players is dependent on its position during attack actions, the most probable candidates for the ball location are extracted from each frame. These candidates are then validated over time using a Kalman filter. Experimental results on a real basketball dataset show that the location of the ball can be estimated with an average accuracy of 82%</font></em>, <a target="_blank" href="./files/papers/conferences/2010_ICIP_DetectLessBall_Poiesi_Daniyal_Cavallaro.pdf">pdf</a>, <a target="_blank" href="https://www.youtube.com/watch?v=pckFacsIWg4">video</a>
+                  </div>
+              </li>
+          </ul>
+      </article>
+
+      <!----------------------------->
+      <!--Demos-->
+      <article>
+          <h2>Demos</h2>
+          <ul>
+          <li><em>REPLICATE project</em><br>
+                  M. Galanti, A. Ragazzon, F. Poiesi, P. Chippendale<br>
+                  EuroVR, Laval, FR, Dec 2017<br>
+          </li>
+          <p style="margin:6px;">
+
+          <li><em>360-video authoring pipeline using user-generated 3D models</em><br>
+                  F. Poiesi, P. Chippendale, J. Ceballos, R. Harris, E. Nocerino, F. Remondino<br>
+                  European Conference on Visual Media Production (CVMP), London, UK, Dec 2017<br>
+                  <a target="_blank" href="./files/papers/demos/2017_CVMP_360VideoAuthoringPipeline_Poiesi_Chippendale_Ceballos.pdf">pdf</a>
+          </li>
+          <p style="margin:6px;">
+
+          <li><em>REPLICATE  project</em><br>
+                  A. Foetschl, F. Poiesi, P.Chippendale<br>
+                  AWE Europe, Munich, DE, Oct 2017<br>
+          </li>
+          <p style="margin:6px;">
+
+          <li><em>Replicare in 3D</em><br>
+                  F. Poiesi, E. Nocerino<br>
+                  European Researchers' Night, Trento, IT, Sep 2017<br>
+                  <a target="_blank" href="https://youtu.be/U5WCw72eq7k">video (local news - RTTR)</a>
+          </li>
+        </ul>
+      </article>
+      
+      <!----------------------------->
+      <!--Theses-->
+      <article>
+          <h2>Theses</h2>
+          <ul>
+              <li><em>Multi-target tracking and performance evaluation on videos</em><br>
+                  F. Poiesi<br>
+                  PhD Thesis, Queen Mary University of London, United Kingdom, Dec 2013<br>
+                  <b>Advisor</b>: Prof. Andrea Cavallaro. <b>Examiners</b>: Dr. Krystian Mikolajczyk (University of Surrey, UK), Dr. Lewis Griffin (University College London, UK)<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - Multi-target tracking is the process that allows the extraction of object motion patterns of interest from a scene. Motion patterns are often described through metadata representing object locations and shape information. In the first part of this thesis we discuss the state-of-the-art methods aimed at accomplishing this task on monocular views and also analyse the methods for evaluating their performance. The second part of the thesis describes our research contribution to these topics.<br>
+                      We begin presenting a method for multi-target tracking based on track-before-detect (MT- TBD) formulated as a particle filter. The novelty involves the inclusion of the target identity (ID) into the particle state, which enables the algorithm to deal with an unknown and unlimited number of targets. We propose a probabilistic model of particle birth and death based on Markov Random Fields. This model allows us to overcome the problem of the mixing of IDs of close targets.<br>
+                      We then propose three evaluation measures that take into account target-size variations, combine accuracy and cardinality errors, quantify long-term tracking accuracy at different accuracy levels, and evaluate ID changes relative to the duration of the track in which they occur. This set of measures does not require pre-setting of parameters and allows one to holistically evaluate tracking performance in an application-independent manner.<br>
+                      Lastly, we present a framework for multi-target localisation applied on scenes with a high density of compact objects. Candidate target locations are initially generated by extracting object features from intensity maps using an iterative method based on a gradient-climbing technique and an isocontour slicing approach. A graph-based data association method for multi-target tracking is then applied to link valid candidate target locations over time and to discard those which are spurious. This method can deal with point targets having indistinguishable appearance and unpredictable motion.<br>
+                      MT-TBD is evaluated and compared with state-of-the-art methods on real-world surveillance datasets (static and moving cameras) by using the proposed evaluation measures. In the case of online applications the inclusion of the ID in the particle state is effective, but it does not allow the proposed tracker to outperform offline trackers. The proposed measures are compared with existing measures for multi-target tracking and it is shown that the proposed ones comparatively maintain a reliable evaluation of the performance without prior knowledge about the application. The tracking of point targets in high-density scenes is evaluated on datasets containing insects and compared with MT-TBD and alternative multi-target trackers. The proposed solutions achieved the best results, especially in terms of ID maintenance on the targets</font></em>, <a target="_blank" href="https://qmro.qmul.ac.uk/jspui/handle/123456789/8848">pdf</a>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              <li><em>Motion-based ball localisation through motion flow analysis</em><br>
+                  F. Poiesi<br>
+                  MSc Thesis, Universita' degli studi di Brescia, Italy, Mar 2010<br>
+                  <b>Advisor</b>: Prof. Riccardo Leonardi. <b>Co-advisor</b>: Prof. Andrea Cavallaro<br>
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - We present a technique for estimating the location of the ball during a basketball game without using a detector based on appearance features. The methods present in the state-of-the-art which aim to retrieve the ball, generally estimate the position of it using spatial features such as color, shape and size. Moreover, several approaches perform an additional temporal smoothing to filter out incorrect estimates. These methods are dependent upon the initial detection phase, which is based on the extraction of the visual features that not reliable because the ball is frequently occluded and similar to the background. Unlike existing approaches, instead of using visual features associated to the ball, we estimate the ball candidates based on the location of the players and their motion during attack actions. Hence, we propose an approach for ball localization that uses contextual information, i.e. players' bahavior, to estimate the approximate location of the ball. By this way this technique allows us to overcome the challenges due to frequent occlusions of the ball and its similarity in the appearance with the background. Based on this assumption, we use expected dynamics of the game and motion flow to estimate regions of the convergence of the players and the most probable region for the ball location. So, the most probable candidates for the ball location are extracted for each frame. Temporal consistency is then validated using the Kalman filter. Finally, we test the proposed approach on a real basketball scenario, where the ball is most of the time either partially of completely occluded. Experimental results show that the location of the ball can be estimated with an average accuracy of 82.6%</font></em>
+                  </div>
+              </li>
+              <p style="margin:6px;">
+              <li><em>Development of an application for the visualisation of dynamic video summaries</em><br>
+                  F. Poiesi<br>
+                  BSc Thesis, Universita' degli studi di Brescia, Italy, Nov 2007<br>
+                  <b>Advisor</b>: Dr. Sergio Benini. <b>Co-advisor</b>: Dr. Pierangelo Migliorati
+                  <div id="disapp_menu"><u>Abstract</u><em> <font color="gray"> - The large amount of multimedia content requires systems capable of automatically manage these data. Therefore, there is the necessity of summarising videos in order to quickly access to the desired content. There exist two methods for the automatic video summarisation. The first is a static summarsation, the second is a dynamic summarisation. The former uses key-frames, the latter uses short video clips (shots) to present the most informative content.<br>
+                  In this thesis the summarisation is dynamic and assumed to be done upstream. We propose two systems for the generation of the output video. The first method is offline and can produce either high and low quality videos. High quality videos require a full re-encoding of the shots. The second method is online and is performed with Video Lan via Java interface.<br>
+                  Experiments show that the offline process produces a more pleasant summary at a cost of a longer processing time.
+                  </font></em>
+                  </div>
+              </li>
+          </ul>
+      </article>
+      
+      
+      <!-- / articles -->
+      </section>
+      
+    </div>
+    
+    <!----------------------------->
+    <!----------------------------->
+    <!-- right column -->
+    <aside id="right_column">
+      <h2 class="title">Highlights</h2>
+    <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/fyET9AwJQQM?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/D6ZX3czVTbk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/zNuabwxDBHk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/-4i0qg9DdGg?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/pp8HQEQ-INU?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/HDY44MLzRoA?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+      <p>&nbsp;</p>
+      <table border="0">
+          <tr>
+              <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/pckFacsIWg4?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+              </td>
+          </tr>
+      </table>
+    </aside>
+    <!----------------------------->
+    <!----------------------------->
+    <!-- / content body -->
+    <div class="clear">
+    </div>
+  </div>
+</div>
+
+<!----------------------------->
+<!----------------------------->
+<!----------------------------->
+<!-- footer -->
+<div class="wrapper row3">
+  <footer id="footer">
+    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="index.html">fabio-poiesi.com</a></p>
+    <p class="fl_right">Thanks to <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+    <div class="clear">
+    </div>
+  </footer>
+</div>
+</body>
+
+</html>

@@ -39,6 +39,73 @@ img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;
 .imgl{float:left; margin:0 15px 15px 0; clear:left;}
 .imgr{float:right; margin:0 0 15px 15px; clear:right;}
 
+/*----------------------------------------------Onclick menu-------------------------------------*/
+.onclick-menu {
+    display:inline-block;
+
+}
+.onclick-menu:before {
+    content: "Abstract";
+    padding: 1px 1px;
+    background-color: #454554;
+    color:rgb(245, 243, 243);
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+
+.onclick-menu {
+	padding: 0;
+	outline: 0;
+	margin-top: 3px;
+}
+
+.onclick-menu-content {
+	background-color: #454554;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 0;
+	padding: 13px;
+	text-align:justify;
+}
+
+/* arrow for the expanding part */
+.onclick-menu-content:before {
+	content: "";
+	width: 0;
+	height: 0;
+
+	border-bottom: 10px solid #364656;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	position: absolute;
+	top: -10px;
+}
+
+.onclick-menu-content li {
+	color: #f2f5e9;
+	list-style-type: none;
+	white-space: wrap;
+}
+
 /*----------------------------------------------HTML 5 Overrides-------------------------------------*/
 
 address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}

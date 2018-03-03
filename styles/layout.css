@@ -44,9 +44,9 @@ q:after{content:' „'; font-size:26px; line-height:20px;}
 
 div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
-.row1, .row1 a{color:rgb(190,190,190); background-color:#333333;} /* header title color */
-.row2{color:rgb(30,30,30); background-color:#FFFFFF;} /* text body color */
-.row2 a{color:#FF9900; background-color:#FFFFFF;}
+.row1, .row1 a{color:rgb(245, 243, 243); background-color:#454554;} /* header title color */
+.row2{color:#454554; background-color:rgb(245, 243, 243);} /* text body color */
+.row2 a{color:#6190f3; background-color:rgb(245, 243, 243);}
 .row3, .row3 a{color:rgb(140,140,140); background:rgba(0,0,0,0);} /*font and background color links*/
 
 /*----------------------------------------------Generalise-------------------------------------*/
@@ -65,8 +65,8 @@ p{margin:0;}
 
 #header #hgroup{float:left; padding:20px 0;}
 #header #hgroup h1, #header #hgroup h2{}
-#header #hgroup h1{font-size:32px;}
-#header #hgroup h2{font-size:13px;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:16px;}
 
 #header nav{float:right; padding:20px 0;}
 #header nav ul{margin-top:20px;}

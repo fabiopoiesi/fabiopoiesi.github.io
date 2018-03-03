@@ -6,11 +6,18 @@ Author URI: http://www.os-templates.com/
 Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
 */
 
+@font-face {
+	font-family: "FiraSans";
+	src: url("fonts/FiraSans-Regular.eot");
+	src: url("fonts/FiraSans-Regular.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/FiraSans-Regular.woff") format("woff");
+}
+
 body{
 	margin:0; 
 	padding:0; 
 	font-size:14px; 
-	font-family:"Helvetica"; 
+	font-family: "FiraSans", sans-serif; 
 	color:rgb(255,255,255); 
 	background-color:rgb(255,255,255);
 	} /* background color of the body*/
@@ -22,7 +29,7 @@ html[xmlns] .clear{display:block;}
 
 a{outline:none; text-decoration:none;}
 
-code{font-weight:normal; font-style:normal; font-family:"Open Sans";}
+code{font-weight:normal; font-style:normal; font-family: "FiraSans", sans-serif;}
 
 .fl_left{float:left;}
 .fl_right{float:right;}

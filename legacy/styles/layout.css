@@ -1,0 +1,201 @@
+/*
+HTML 5 Template Name: Basic 67
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@font-face {
+	font-family: "FiraSans";
+	src: url("fonts/FiraSans-Regular.eot");
+	src: url("fonts/FiraSans-Regular.eot?#iefix") format("embedded-opentype"),
+		 url("fonts/FiraSans-Regular.woff") format("woff");
+}
+
+body{
+	margin:0; 
+	padding:0; 
+	font-size:14px; 
+	font-family: "FiraSans", sans-serif; 
+	color:rgb(255,255,255); 
+	background-color:rgb(255,255,255);
+	} /* background color of the body*/
+
+.clear:after{content:"."; display:block; height:0; clear:both; visibility:hidden; line-height:0;}
+.clear{display:block; width:100%; clear:both;}
+html[xmlns] .clear{display:block;}
+* html .clear{height:1%;}
+
+a{outline:none; text-decoration:none;}
+
+code{font-weight:normal; font-style:normal; font-family: "FiraSans", sans-serif;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+img{margin:0; padding:0; border:none; line-height:normal; vertical-align:middle;}
+.imgholder, .imgl, .imgr{padding:4px; border:1px solid #D6D6D6; text-align:center;}
+.imgl{float:left; margin:0 15px 15px 0; clear:left;}
+.imgr{float:right; margin:0 0 15px 15px; clear:right;}
+
+/*----------------------------------------------Onclick menu-------------------------------------*/
+.onclick-menu {
+    display:inline-block;
+
+}
+.onclick-menu:before {
+    content: "Abstract";
+    padding: 1px 1px;
+    background-color: #454554;
+    color:rgb(245, 243, 243);
+}
+.onclick-menu:focus {
+    /* clicking on label should toggle the menu */
+    pointer-events: none;
+}
+.onclick-menu:focus .onclick-menu-content {
+    /*  opacity is 1 in opened state (see below) */
+    opacity: 1;
+    visibility: visible;
+
+
+    /* don't let pointer-events affect descendant elements */
+    pointer-events: auto;
+}
+.onclick-menu-content {
+    position: absolute;
+    /* use opacity to fake immediate toggle */
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.5s;
+}
+
+.onclick-menu {
+	padding: 0;
+	outline: 0;
+	margin-top: 4px;
+}
+
+.onclick-menu-content {
+	background-color: #454554;
+	width: 400px;
+	margin-top: 15px;
+	margin-left: 0;
+	padding: 13px;
+	text-align:justify;
+}
+
+/* arrow for the expanding part */
+.onclick-menu-content:before {
+	content: "";
+	width: 0;
+	height: 0;
+
+	border-bottom: 10px solid #364656;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+
+	position: absolute;
+	top: -10px;
+}
+
+.onclick-menu-content li {
+	color: #f2f5e9;
+	list-style-type: none;
+	white-space: wrap;
+}
+
+/*----------------------------------------------HTML 5 Overrides-------------------------------------*/
+
+address, article, aside, figcaption, figure, footer, header, nav, section{display:block; margin:0; padding:0;}
+
+q{display:block; padding:0 10px 8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+q:before{content:'“ '; font-size:26px;}
+q:after{content:' „'; font-size:26px; line-height:20px;}
+
+/* ----------------------------------------------Wrapper-------------------------------------*/
+
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+
+.row1, .row1 a{color:rgb(245, 243, 243); background-color:#454554;} /* header title color */
+.row2{color:#454554; background-color:rgb(245, 243, 243);} /* text body color */
+.row2 a{color:#6190f3; background-color:rgb(245, 243, 243);}
+.row3, .row3 a{color:rgb(140,140,140); background:rgba(0,0,0,0);} /*font and background color links*/
+
+/*----------------------------------------------Generalise-------------------------------------*/
+
+#header, #container, #footer{display:block; margin:0 auto; width:960px;}
+
+nav ul{margin:0; padding:0; list-style:none;}
+
+h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:20px; font-weight:normal; font-style:normal; line-height:normal;}
+
+p{margin:0;}
+
+/*----------------------------------------------Header-------------------------------------*/
+
+#header{}
+
+#header #hgroup{float:left; padding:20px 0;}
+#header #hgroup h1, #header #hgroup h2{}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:16px;}
+
+#header nav{float:right; padding:20px 0;}
+#header nav ul{margin-top:20px;}
+#header nav li{display:inline; margin-right:15px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+
+/*----------------------------------------------Content Area-------------------------------------*/
+
+#container{padding:40px 0;}
+#container section{margin:0 0 30px 0;}
+#container section.last{margin:0;}
+#container .more{text-align:right; text-transform:uppercase; font-size:smaller; font-weight:bold;}
+
+/* ------Main Content-----*/
+
+#container #content{float:left; width:630px;}
+
+#container #content section article{}
+#container #content section article h2{text-transform:uppercase;}
+#container #content section article address{font-size:10px; font-style:normal;}
+#container #content section article time{font-size:10px;}
+
+#container #content #services{}
+#container #content #services ul{margin:0; padding:0; list-style:none;}
+#container #content #services ul li{display:block; width:300px;}
+#container #content #services ul li.odd{float:left;}
+#container #content #services ul li.even{float:right;}
+#container #content #services ul li img{width:290px; height:100px; margin:0 0 15px 0; padding:4px; border:1px solid #666666;}
+
+/* ------Right Column-----*/
+
+#container #right_column{float:right; width:280px;}
+#container #right_column h2.title{margin-bottom:20px;}
+
+#container #right_column nav{display:block; width:100%; margin-bottom:30px;}
+#container #right_column nav ul{margin:0; padding:0; list-style:none;}
+#container #right_column nav li{margin:0 0 3px 0; padding:0;}
+#container #right_column nav li.last{margin-bottom:0;}
+#container #right_column nav a{display:block; margin:0; padding:5px 10px 5px 20px; color:rgb(30,30,30); background:url("../images/orange_file.gif") no-repeat 10px center #FFFFFF; text-decoration:none; border-bottom:1px dotted #666666;}
+#container #right_column nav a:hover{color:#FF9900; background-color:#FFFFFF;}
+
+/*----------------------------------------------Footer-------------------------------------*/
+
+#footer p{margin:0; padding:5px;font-size:12px;}
+#footer{bottom: 0; position: fixed; background:rgba(30,30,30,0.8); min-width:100%;}
+
+/*----------------------------------------------Open/close menu-------------------------------------*/
+#disapp_menu em{display: none;}
+
+/*----------------------------------------------Tables-------------------------------------*/
+table, th, td {
+    border: 0px solid black;
+    border-collapse: collapse;
+}
+tr.spaceUnder > td
+{
+    padding-bottom: 3px;
+}

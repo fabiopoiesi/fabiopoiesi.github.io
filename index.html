@@ -1,415 +1,870 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<html lang="en" dir="ltr">
-    
-<head>
-<title>fabiopoiesi | Home</title>
-<meta charset="iso-8859-1">
+    <title>Fabio Poiesi</title>
 
-<!-- header to enable javascript -->
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <meta name="author" content="Fabio Poiesi">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!-- header to import css files -->
-<link rel="stylesheet" href="styles/layout.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  </head>
 
-<!-- header to enable javascript -->
-<script type='text/javascript'>
-    $(function(){
-      $('#disapp_menu u').css({cursor: "pointer"}).on('click', function(){
-          $(this).next('em').toggle();
-          })
-      });
-</script>
+  <body>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:63%;vertical-align:middle">
+                  <p class="name" style="text-align: center;">
+                    Fabio Poiesi
+                  </p>
+                  <p>
+                    I'm a Research Scientist at the <a target="_blank" href="https://tev.fbk.eu/">Technologies of Vision Lab</a> at <a target="_blank" href="https://www.fbk.eu/en/">Fondazione Bruno Kessler</a> in Trento, Italy. 
+                    I work on computer vision for both research and real-world industrial applications.
+                    I did my PhD and Postdoc at Queen Mary University of London with <a target="_blank" href="https://scholar.google.com/citations?user=KZmcljoAAAAJ&hl=en">Andrea Cavallaro</a> as my supervisor. 
+                    There, I worked on algorithms for multi-object tracking, target behaviour understanding, and vision-based quadrotor manoeuvring.
+                    I joined FBK in 2016 as a Research Scientist and became a tenured researcher in 2023. 
+                    At FBK, I started working on 3D scene understanding and have been doing research in that area, as well as in 2D scene understanding.
+                    Below is a selection of my scholarly publications.
+                  </p>
+                  <!-- <p>At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">Jump</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, and <a href="https://www.matthewtancik.com/nerf">NeRF</a>. I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a> and funded by the <a href="http://www.nsfgrfp.org/">NSF GRFP</a>. I've received the <a href="https://www2.eecs.berkeley.edu/Students/Awards/15/">C.V. Ramamoorthy Distinguished Research Award</a> and the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                  </p> -->
+                  <p style="text-align:center">
+                    <a target="_blank" href="mailto:poiesi@fbk.eu">Email</a> &nbsp;/&nbsp;
+                    <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
+                    <a target="_blank" href="https://scholar.google.co.uk/citations?user=BQ7li6AAAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
+                    <a target="_blank" href="https://twitter.com/Poiex">X</a> &nbsp;/&nbsp;
+                    <a target="_blank" href="https://www.linkedin.com/in/fabio-poiesi-49101053/">Linkedin</a> &nbsp;/&nbsp;
+                    <a target="_blank" href="https://github.com/fabiopoiesi">Github</a>
+                  </p>
+                </td>
+                <td style="padding:2.5%;width:40%;max-width:40%">
+                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/fabio_poiesi_circle.png" class="hoverZoomLink"></a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-58999519-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <p>
+                    Sections: <a href="#jornals">Journals</a>, <a href="#conferences">Conferences</a>, <a href="#seminars">Seminars</a>.
+                  </p>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
 
-gtag('config', 'UA-58999519-1');
-</script>
-
-</head>
-
-<body>
-<!----------------------------->
-<!----------------------------->
-<!----------------------------->
-
-<div class="wrapper row1">
-  <header id="header" class="clear">
-    <div id="hgroup">
-      <h1>Home</h1>
-    </div>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="presentations.html">Presentations</a></li>
-        <li><a href="datasets.html">Datasets</a></li>
-        <li class="last"><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <div class="clear"></div>
-  </header>
-</div>
+          <!-- 
 
 
-<!----------------------------->
-<!----------------------------->
-<!----------------------------->
-<!-- content -->
-<div class="wrapper row2">
-  <div id="container">
-      
-    <!----------------------------->
-    <!----------------------------->
-    <!-- content body -->
-    <div id="content">
-      <!-- section 1 -->
-      <section>
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>New website soon</h2>
-          <time datetime="2012-04-06T08:15+00:00">Mon, 28<sup>th</sup> Aug 2023</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	I will soon update this website with a much lighter and neater version. At the moment, only the Publication page is up to date.
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+            journals
+
+
+          -->
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+              <tr>
+                <td>
+                  <h2 id="journals">Journal papers</h2>
+                </td>
+              </tr>
+            </tbody></table>
+            <table width="106%" align="center" border="0" cellpadding="20"><tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_cosmix_pami.png" width="200" alt="2023_cosmix_pami_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2308.14619.pdf">
+                    <span class="papertitle">Compositional Semantic Mix for Domain Adaptation in Point Cloud Segmentation</span>
+                  </a>
+                  <br>
+                  Cristiano Saltori, 
+                  Fabio Galasso, 
+                  Giuseppe Fiameni, 
+                  Nicu Sebe,
+                  <strong>Fabio Poiesi</strong>,
+                  Elisa Ricci
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Trans. on Pattern Analysis and Machine Intelligence (TPAMI)</em>, (to appear) 2023 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Compositional semantic mixing for point cloud domain adaptation, representing the first unsupervised domain adaptation technique for point cloud segmentation based on semantic and geometric sample mixing. 
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_survey_air.jpg" width="200" alt="2023_survey_air_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2307.15692.pdf">
+                    <span class="papertitle">Survey on video anomaly detection in dynamic scenes with moving cameras</span>
+                  </a>
+                  <br>
+                  Runyu Jiao, 
+                  Yi Wan,
+                  <strong>Fabio Poiesi</strong>,
+                  Yiming Wang
+                  <div class="br" data-space="small"></div>
+                  <em>Artificial Intelligence Review</em>, (to appear) 2023 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  First comprehensive survey on Moving Camera Video Anomaly Detection (MC-VAD). 
+                  We delve into the research papers related to MC-VAD, critically assessing their limitations and highlighting associated challenges.
+                </td>
+              </tr>
+              
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_patchmixer_imavis.jpg" width="200" alt="2023_patchmixer_imavis_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2307.15692.pdf">
+                    <span class="papertitle">PatchMixer: Rethinking network design to boost generalization for 3D point cloud understanding</span>
+                  </a>
+                  <br>
+                  Davide Boscaini,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>Image and Vision Computing (IMAVIS)</em>, Sep 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/davideboscaini/PatchMixer">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Simple yet effective architecture that extends the ideas behind MLP-Mixer to 3D point clouds. We process local patches instead of the whole shape to promote robustness to partial point clouds.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_raftfusion_ral.png" width="200" alt="2023_raftfusion_ral_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2307.15301.pdf">
+                    <span class="papertitle">Attentive Multimodal Fusion for Optical and Scene Flow</span>
+                  </a>
+                  <br>
+                  Youjie Zhou,
+                  Guofeng Mei,
+                  Yiming Wang,
+                  <strong>Fabio Poiesi</strong>,
+                  Yi Wan
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Robotics and Automation Letters (RAL)</em>, Jul 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/jiesico/FusionRAFT">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Deep neural network to estimate optical flow based on early-stage information fusion between sensor modalities (RGB and depth). 
+                  We incorporate self- and cross-attention layers at different network levels to construct informative features that leverage the strengths of both modalities.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_segm_frontbio.jpg" width="200" alt="2023_segm_frontbio_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://www.frontiersin.org/articles/10.3389/fbioe.2023.1191803/pdf">
+                    <span class="papertitle">Exploiting multi-granularity visual features for retinal layer segmentation in human eyes</span>
+                  </a>
+                  <br>
+                  Xiang He, 
+                  Yiming Wang,
+                  <strong>Fabio Poiesi</strong>,
+                  Weiye Song, 
+                  Quanqing Xu, 
+                  Zixuan Feng,
+                  Yi Wan
+                  <div class="br" data-space="small"></div>
+                  <em>Frontiers in Bioengineering and Biotechnology</em>, Jun 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/Medical-Image-Analysis/Retinal-layer-segmentation">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  End-to-end retinal layer segmentation network based on ConvNeXt that can retain more feature map details by using a new depth-efficient attention module and multiscale structures.
+                </td>
+              </tr>
+          
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_gedi_pami.jpg" width="200" alt="2023_gedi_pami_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2105.10382.pdf">
+                    <span class="papertitle">Learning general and distinctive 3D local deep descriptors for point cloud registration</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Davide Boscaini
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Trans. on Pattern Analysis and Machine Intelligence (TPAMI)</em>, Mar 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/fabiopoiesi/gedi">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Method to learn general and distinctive 3D local descriptors that can be used to register point clouds that are captured in different domains.
+                </td>
+              </tr>
+
+              <!-- <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_hci_appsci.png" width="200" alt="2023_hci_appsci_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://www.mdpi.com/2076-3417/12/22/11457/pdf?version=1668165580">
+                    <span class="papertitle">Deep Learning for Intelligent Human-Computer Interaction</span>
+                  </a>
+                  <br>
+                  Zhihan Lv,
+                  <strong>Fabio Poiesi</strong>,
+                  Qi Dong,
+                  Jaime Lloret,
+                  Houbing Song
+                  <div class="br" data-space="small"></div>
+                  <em>Applied Sciences</em>, Nov 2022 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Survey about Human-Computer Interaction (HCI) systems, investigating the realization of gesture interaction and voice interaction, and advantages brought by deep learning in HCI.
+                </td>
+              </tr> -->
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_loop_ral.png" width="200" alt="2023_loop_ral_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2111.00440.pdf">
+                    <span class="papertitle">Loop closure detection using local 3D deep descriptors</span>
+                  </a>
+                  <br>
+                  Youjie Zhou,
+                  Yiming Wang,
+                  <strong>Fabio Poiesi</strong>,
+                  Qi Qin,
+                  Yi Wan
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Robotics and Automation Letters (RAL)</em>, Jul 2022 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Simple yet effective method to address loop closure detection in simultaneous localisation and mapping using local 3D deep descriptors (L3Ds). L3Ds are emerging com-
+                  pact representations of patches extracted from point clouds that are learnt from data using a deep learning algorithm.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_perfen_josa.png" width="200" alt="2023_perfen_josa_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1C3clhX9JU8UOI4UxVt6IT65LDt4_jG_j/view?usp=sharing">
+                    <span class="papertitle">Performance comparison of image enhancers with and without deep learning</span>
+                  </a>
+                  <br>
+                  Michela Lecca,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>Journal of the Optical Society of America A (JOSA)</em>, Apr 2022 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  We empirically compare a set of traditional and deep learning enhancers, which we selected as representing different methodologies for the improvement of bad illuminated images.
+                </td>
+              </tr>
+
+              <!-- <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2021_4d_swimpact.png" width="200" alt="2021_4d_swimpact_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S2665963821000361">
+                    <span class="papertitle">An open-source mobile-based system for synchronised multi-view capture and dynamic object reconstruction</span> (<a target="_blank" href="https://github.com/fabiopoiesi/4dm">Github</a>)
+                  </a>
+                  <br>
+                  Matteo Bortolon
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>Software Impacts</em>, Aug 2021 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Open-source mobile-based system to capture nearly-synchronous frame streams from multiple handheld Augmented Reality mobiles and a software to reconstruct a captured dynamic object.
+                </td>
+              </tr> -->
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2021_4d_jrtip.png" width="200" alt="2021_4d_jrtip_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2103.07883.pdf">
+                    <span class="papertitle">Multi-view data capture for dynamic object reconstruction using handheld augmented reality mobiles</span>
+                  </a>
+                  <br>
+                  Matteo Bortolon,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>Journal of Real-Time Image Processing (JRTIP)</em>, Mar 2021 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/fabiopoiesi/4dm">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  System to capture nearlysynchronous frame streams from multiple and moving handheld mobiles that is suitable for dynamic object 3D reconstruction. 
+                  Each mobile executes Simultaneous Localisation and Mapping on-board to estimate its pose, and uses a wireless communication channel to send or receive synchronisation triggers.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2017_msvm_tcsvt.jpg" width="200" alt="2017_msvm_tcsvt_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1QZa_DbJnl8QzuxYNuV-PtBBbNXLs-EZO/view?usp=sharing">
+                    <span class="papertitle">Support Vector Motion Clustering</span>
+                  </a>
+                  <br>
+                  Isah A. Lawal,
+                  <strong>Fabio Poiesi</strong>,
+                  Davide Anguita,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Trans. on Circuits and Systems for Video Technology (TCSVT)</em>, Nov 2017 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Closed-loop unsupervised clustering method for motion vectors extracted from highly dynamic video scenes. 
+                  Motion vectors are assigned to non-convex homogeneous clusters characterizing direction, size and shape of regions with multiple independent activities.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2015_mtt_tcsvt.jpg" width="200" alt="2015_mtt_tcsvt_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1k7mEudIPCoTUsrImeqH5PsEADFpGumSZ/view?usp=sharing">
+                    <span class="papertitle">Tracking multiple high-density homogeneous targets</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Trans. on Circuits and Systems for Video Technology (TCSVT)</em>, Apr 2015 <span class="larger-space"></span> (<a target="_blank" href="https://youtu.be/zNuabwxDBHk?si=WpgWT4nLv86YGaXM">video</a>) 
+                  <div class="br" data-space="medium"></div>
+                  Framework for multi-target detection and tracking that infers candidate target locations in videos containing a high density of homogeneous targets.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2015_inter_jrtip.png" width="200" alt="2015_inter_jrtip_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1nI6A4dG8KRi8EZ5PPFXDHt2VM7THI36L/view?usp=sharing">
+                    <span class="papertitle">Predicting and recognizing human interactions in public spaces</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em>Journal on Real-Time Image Processing (JRTIP)</em>, Dec 2015 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Method for predicting rendezvous areas in observable and unobservable regions using sparse motion information. 
+                  Rendezvous areas indicate where people are likely to interact with each other or with static objects (e.g. a door, an information desk or a meeting point).
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2014_mete_tip.png" width="200" alt="2014_mete_tip_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1Vy1NJqEAiuvO2wwa7TSqkDWueZPSuIy-/view?usp=sharing">
+                    <span class="papertitle">Measures of effective video tracking</span>
+                  </a>
+                  <br>
+                  Tahir Nawaz,
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em>IEEE Trans. on Image Processing (TIP)</em>, Jan 2014 <span class="larger-space"></span> (<a target="_blank" href="https://youtu.be/pp8HQEQ-INU?si=QOyauvbAfFwALT9h">video</a>) 
+                  <div class="br" data-space="medium"></div>
+                  Three parameter-independent measures for evaluating multi-target video tracking. 
+                  The measures take into account target-size variations, combine accuracy and cardinality errors, quantify long-term tracking accuracy at different accuracy levels, and evaluate ID changes relative to the duration of the track in which they occur.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2013_mtt_cviu.png" width="200" alt="2013_mtt_cviu_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1BBNKGwsC4_RnrOuzmIvrZfqRMPXDHOQz/view?usp=sharing">
+                    <span class="papertitle">Multi-target tracking on confidence maps: an application to people tracking</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Riccardo Mazzon,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em>Computer Vision and Image Understanding (CVIU)</em>, Oct 2013 <span class="larger-space"></span> (<a target="_blank" href="https://youtu.be/-4i0qg9DdGg?si=FevDwF-Va7Cnd5qD">video</a>) 
+                  <div class="br" data-space="medium"></div>
+                  Generic online multi-target track-before-detect based on particle filtering that is applicable on confidence maps used as observations. 
+                  We include the target ID into the particle state, enabling tracking with unknown and large number of targets.
+                </td>
+              </tr>
+              
+
+            <!-- 
+
+
+              conferences
+
+
+            -->
+            <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+              <tr>
+                <td>
+                  <h2 id="conferences">Conference papers</h2>
+                </td>
+              </tr>
+            </tbody></table>
+            <table width="106%" align="center" border="0" cellpadding="20"><tbody>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_bmvc_daca.png" width="200" alt="2023_bmvc_daca_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2308.15353.pdf">
+                    <span class="papertitle">Detect, Augment, Compose, and Adapt: Four Steps for Unsupervised Domain Adaptation in Object Detection</span>
+                  </a>
+                  <br>
+                  Mohamed L. Mekhalfi,
+                  Davide Boscaini,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>British Machine Vision Conference (BMVC)</em>, Nov 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/MohamedTEV/DACA">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Effective four-step unsupervised domain adaptation approach that leverages self-supervision and trains source and target data concurrently.
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_fcgf6d_iccvw.png" width="200" alt="2023_fcgf6d_iccvw_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2307.15514.pdf">
+                    <span class="papertitle">Revisiting Fully Convolutional Geometric Features for Object 6D Pose Estimation</span>
+                  </a>
+                  <br>
+                  Jaime Corsetti,
+                  Davide Boscaini,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>International Conference on Computer Vision Workshops (ICCVW)</em>, Oct 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/jcorsetti/FCGF6D">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Revisiting Fully Convolutional Geometric Features (FCGF) to achieve object 6D pose estimation state-of-the-art performance.
+                  FCGF employs sparse convolutions and learns point-level features using a fully-convolutional network by optimising a hardest contrastive loss.
+                </td>
+              </tr>
             
-      	<!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>SHIELD: new project 2020/2021</h2>
-          <time datetime="2012-04-06T08:15+00:00">Sat, 21<sup>th</sup> Dec 2019</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	The best way to end a year is with the acceptance of a new two-year project. This new project is called "SHIELD: Safeguard Heritage in Endangered Looted Districts" funded by <a target="_blank" href="http://jpi-ch.eu/2019/05/conservation-protection-and-use-joint-call-official-launch/">JPI Cultural Heritage</a>, with the support of <a target="_blank" href="http://www.ricercainternazionale.miur.it/era/programmazione-congiunta/jpi-ch.aspx">MIUR</a> for the Italian part. The partners will be The Cyprus Institute, Cyprus (Coordinator), Fondazione Bruno Kessler, TEV, Italy and INESCTEC, CRAS, Portugal. Amongst the associated partners there is Israeli Antiquity Authority, Archaeological Society of Alexandria (Egypt), Police of Cyprus. In this project we are a three young and highly motivated principal investigators. I have the feeling it will be a great project. More details will come.
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_nops_cvpr.jpg" width="200" alt="2023_nops_cvpr_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2303.11610.pdf">
+                    <span class="papertitle">Novel Class Discovery for 3D Point Cloud Semantic Segmentation</span>
+                  </a>
+                  <br>
+                  Luigi Riz,
+                  Cristiano Saltori,
+                  Elisa Ricci,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>Computer Vision and Pattern Recognition (CVPR)</em>, Jun 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/LuigiRiz/NOPS">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Method for novel class discovery for 3D point clouds based on online clustering exploiting uncertainty quantification to produce prototypes for pseudo-labelling points of novel classes.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>MOTCHALLENGE: EAMTT still amongst the best 10</h2>
-          <time datetime="2012-04-06T08:15+00:00">Sat, 21<sup>th</sup> Dec 2019</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	Since I participated to <a target="_blank" href="https://motchallenge.net/">MOTCHALLENGE</a> (3+ years ago), many new multi-object tracking algorithms have contributed with their results and joined the rank. As of today I counted 123 methods in the <a target="_blank" href="https://motchallenge.net/results/2D_MOT_2015/?det=All">2D MOT 2015 Results - Detection All</a>. I am very happy to see that our method is still ranked 5th amogst the online trackers and 10th overall. That was a great score :)
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_monet_cvprw.jpg" width="200" alt="2023_monet_cvprw_jpg" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2304.05417.pdf">
+                    <span class="papertitle">The MONET dataset: Multimodal drone thermal dataset recorded in rural scenarios</span>
+                  </a>
+                  <br>
+                  Luigi Riz,
+                  Andrea Caraffa,
+                  Matteo Bortolon,
+                  Mohamed Lamine Mekhalfi,
+                  Davide Boscani,
+                  Andre Moura, 
+                  Jose Antunes, 
+                  Andre Dias, 
+                  Hugo Silva, 
+                  Andreas Leonidou, 
+                  Christos Constantinides, 
+                  Christos Keleshis, 
+                  Dante Abate,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>Computer Vision and Pattern Recognition Workshops (CVPRW)</em>, Jun 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/fabiopoiesi/monet_dataset">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  MONET is a multimodal dataset captured using a thermal camera mounted on a drone that flew over rural areas, and recorded human and vehicle activities.
+                </td>
+              </tr>
 
-      	<!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>UAV-RETINA coming to an end</h2>
-          <time datetime="2012-04-06T08:15+00:00">Sat, 21<sup>th</sup> Dec 2019</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	The <a target="_blank" href="https://www.eitdigital.eu/newsroom/news/article/uav-retina-future-drones-for-emergency-management/">UAV-RETINA</a> project (funded by EIT Digital), where I also contributed as workpackage leader for the computer vision part, is coming to an end. This has been a great project that gave me the opportunity to collaborate with great and highly motivated people.
-          	We had a very important collaboration with the Trento Fireman team that opened our eyes about the importance of drone technology and challenges in Search and Rescue operations. More info <a target="_blank" href="https://magazine.fbk.eu/en/news/future-drones-for-emergency-management/">here</a>, and <a target="_blank" href="https://www.youtube.com/watch?v=e25amtqmyAg&feature=emb_logo">here</a> (in Italian).
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2023_ogmm_wacv.png" width="200" alt="2023_ogmm_wacv_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2210.09836.pdf">
+                    <span class="papertitle">Overlap-guided Gaussian Mixture Models for Point Cloud Registration</span>
+                  </a>
+                  <br>
+                  Guofeng Mei,
+                  <strong>Fabio Poiesi</strong>,
+                  Cristiano Saltori,
+                  Jian Zhang,
+                  Elisa Ricci,
+                  Nicu Sebe
+                  <div class="br" data-space="small"></div>
+                  <em>Winter Conference on Applications of Computer Vision (WACV)</em>, Jan 2023 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/gfmei/ogmm">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Overlap-guided probabilistic registration approach that computes the optimal transformation from matched Gaussian Mixture Model parameters.
+                </td>
+              </tr>
 
-      	<!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Oral presentation at VISAPP 2020</h2>
-          <time datetime="2012-04-06T08:15+00:00">Tue, 3<sup>th</sup> Dec 2019</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	I will present our new paper titled "<a target="_blank" href="./files/papers/conferences/2020_VISAPP_multiview_data_capture_Bortolon_Chippendale_Messelodi_Poiesi.pdf">Multi-view data capture using edge-synchronised mobiles</a>" at <a target="_blank" href="http://www.visapp.visigrapp.org/">VISAPP 2020</a>. This paper was developed within the project 5G@Trento, an internal strategic project funded by Fondazione Bruno Kessler. The approach proposed in this paper is the first proof-of-concept, decentralised system for synchronised multi-view data capture usable for Free-Viewpoint Video content creation. Have a look to the paper for more info.
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2022_softclu_bmvc.png" width="200" alt="2022_softclu_bmvc_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2210.02798.pdf">
+                    <span class="papertitle">Data Augmentation-free Unsupervised Learning for 3D Point Cloud Understanding</span>
+                  </a>
+                  <br>
+                  Guofeng Mei,
+                  Cristiano Saltori,
+                  <strong>Fabio Poiesi</strong>,
+                  Jian Zhang,
+                  Elisa Ricci,
+                  Nicu Sebe,
+                  Qiang Wu
+                  <div class="br" data-space="small"></div>
+                  <em>British Machine Vision Conference (BMVC)</em>, Nov 2022 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/gfmei/softclu">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Augmentation-free unsupervised approach for point clouds to learn transferable point-level features via soft clustering.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Comment on 'Il Sole 24 Ore'</h2>
-          <time datetime="2012-04-06T08:15+00:00">Sun, 3<sup>rd</sup> Nov 2019</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	The most important Italian news paper on economy, finance and industrial development asked me to contribute to an article with my vision about the future of computational photography. Here the <a target="_blank" href="https://www.ilsole24ore.com/art/fotografia-computazionale-come-funziona-l-intelligenza-artificiale-smartphone-AC0dXPw">article</a>. This is my comment: "Augmented and virtual reality is spreading rapidly; however, allowing anyone to create 3D content is difficult. You would need photogrammetry techniques, which are not suitable for normal users. Researchers are developing algorithms based on Deep Learning to facilitate the reconstruction of 3D objects from individual 2D images. Future cameras will not only produce 2D copies of the world (photos), but will also take 3D photos, so that when shared, people will be able to experience them as if they were physically in the same place."
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2022_cosmix_eccv.png" width="200" alt="2022_cosmix_eccv_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2207.09778.pdf">
+                    <span class="papertitle">CoSMix: Compositional semantic mix for domain adaptation in 3D LiDAR segmentation</span>
+                  </a>
+                  <br>
+                  Cristiano Saltori,
+                  Fabio Galasso,
+                  Giuseppe Fiameni,
+                  Nicu Sebe,
+                  Elisa Ricci,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>European Conference on Computer Vision (ECCV)</em>, Oct 2022 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/saltoricristiano/cosmix-uda">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Sample mixing for point cloud unsupervised domain adaptation, namely Compositional Semantic Mix (CoSMix), the first UDA approach for point cloud segmentation based on sample mixing.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Honourable mentions of outstanding reviewers BMVC</h2>
-          <time datetime="2012-04-06T08:15+00:00">Wed, 9<sup>th</sup> Oct 2019</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	Glad to be in the <a target="_blank" href="https://bmvc2019.org/outstanding-reviewers/">list</a> of honourable mentions of outstanding reviewers for the British Machine Vision Conference (BMVC) 2019. Nice way to publicly reward reviewers for their time spent and also to motivate them to do great again next time.
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2022_gipso_eccv.png" width="200" alt="2022_gipso_eccv_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2207.09763.pdf">
+                    <span class="papertitle">GIPSO: Geometrically Informed Propagation for Online Adaptation in 3D LiDAR Segmentation</span>
+                  </a>
+                  <br>
+                  Cristiano Saltori,
+                  Evgeny Krivosheev, 
+                  Stephane Lathuiliere,
+                  Nicu Sebe,
+                  Fabio Galasso,
+                  Giuseppe Fiameni,
+                  Elisa Ricci,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>European Conference on Computer Vision (ECCV)</em>, Oct 2022 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/saltoricristiano/gipso-sfouda">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Adaptive self-training and geometric-feature propagation to adapt a pre-trained source model online without requiring either source data or target labels.
+                </td>
+              </tr>
 
-      	<!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Religion 3D on the radio</h2>
-          <time datetime="2012-04-06T08:15+00:00">Mon, 5<sup>th</sup> Mar 2018</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          	Today I participated as a guest speaker on <a target="_blank" href="https://www.rsi.ch/la2/">Radio RSI-2</a> speaking about how to use our virtualisation technology to replicate religious objects. You can find the podcast <a target="_blank" href="https://www.rsi.ch/rete-due/programmi/cultura/attualita-culturale/Religione-3D-10118744.html">here</a> (unfortunately it is in italian...). This research aims to understand whether 3D reconstructed objects can carry their own holy meaning also in virtual worlds. Can we use <a target="_blank" href="http://www.replicate3d.eu/">REPLICATE</a> technology to enable geographically distant communities experience religion in Virtual Reality? Can 3D reconstruction be used as a means of sharing religious symbols among communities? These are some of the questions we are trying to answer. A brief description of the project can be found <a target="_blank" href="https://isr.fbk.eu/en/projects/detail/religion-to-go/">here</a>.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2021_dip_icpr.png" width="200" alt="2021_dip_icpr_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2009.00258.pdf">
+                    <span class="papertitle">Distinctive 3D local deep descriptors</span>
+                  </a>
+                  <br>
+                  Davide Boscaini,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>International Conference on Pattern Recognition (ICPR)</em>, Jan 2021 <span class="larger-space"></span> (<a target="_blank" href="https://github.com/fabiopoiesi/dip">Github</a>)
+                  <div class="br" data-space="medium"></div>
+                  Learning distinctive 3D local deep descriptors (DIPs) that can be used to register point clouds without requiring an initial alignment.
+                </td>
+              </tr>
+              
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2020_accv_nhas.png" width="200" alt="2020_accv_nhas_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://arxiv.org/pdf/2007.02808.pdf">
+                    <span class="papertitle">Novel-View Human Action Synthesis</span>
+                  </a>
+                  <br>
+                  Mohamed I. Lakhal,
+                  Davide Boscaini,
+                  <strong>Fabio Poiesi</strong>,
+                  Oswald Lanz,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em>Asian Conference on Computer Vision (ACCV)</em>, Nov 2020 <span class="larger-space"></span> (<a target="_blank" href="https://mlakhal.github.io/novel-view_action_synthesis.html">project page</a>)
+                  <div class="br" data-space="medium"></div>
+                  Novel-View Human Action Synthesis aims to synthesize the movement of a body from a virtual viewpoint, given a video from a real viewpoint. 
+                  We employ 3D reasoning to synthesize the target viewpoint.
+                </td>
+              </tr>   
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Oral presentation at CVMP</h2>
-          <time datetime="2012-04-06T08:15+00:00">Tue, 12<sup>th</sup> Dec 2017</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          Today I will present the paper we did in collaboration with the ETH Computer Vision Lab of Luc Van Gool at <a target="_blank" href="https://www.cvmp-conference.org/">CVMP</a>. The paper is titled "Cloud-based collaborative 3D reconstruction using smartphones" (F. Poiesi, A. Locher, P. Chippendale, E. Nocerino, F. Remondino and L. Van Gool) and you can find it at this <a target="_blank" href="./files/papers/conferences/2017_CVMP_CloudBasedCollaborativeReconstruction_Poiesi_Locher_Chippendale.pdf">link</a>. There are also a <a target="_blank" href="https://youtu.be/bobWgdLtzIg">video</a> to give you a taste of the results we obtained and a <a target="_blank" href="https://tev.fbk.eu/technologies/collaborative-3d-reconstruction-with-smartphones">dataset</a> to test your algorithm on our data.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2018_ismar_bare.png" width="200" alt="2018_ismar_bare_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1CrBiiASr_cZpfRTpmObpHJuIHzeKHgF2/view?usp=drive_link">
+                    <span class="papertitle">Seamless bare-hand interaction in Mixed Reality</span>
+                  </a>
+                  <br>
+                  Caterina Battisti,
+                  Stefano Messelodi,
+                  <strong>Fabio Poiesi</strong>
+                  <div class="br" data-space="small"></div>
+                  <em>International Symposium on Mixed and Augmented Reality (ISMAR)</em>, Oct 2018 <span class="larger-space"></span> (<a target="_blank" href="https://youtu.be/vRzYkzAq5xc?si=llS6gsxLs1HdC2T8">video</a>)
+                  <div class="br" data-space="medium"></div>
+                  Unrealistic Mixed Reality (MR) experiences can be caused by unprocessed occlusions between real and augmented objects during interactions.
+                  This can be addressed by blending real-time 3D finger tracking information with the visualisation of the hand in MR.  
+                </td>
+              </tr> 
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>REPLICATE Milestone M18 Video</h2>
-          <time datetime="2012-04-06T08:15+00:00">Fri, 30<sup>th</sup> Jun 2017</time>
-          <p style="margin:5px;">
-          <div id="disapp_menu"><p align="justify">
-              As part of the H2020 <a target="_blank" href="http://www.replicate3d.eu/">REPLICATE</a> I coordinated and edited the video for month 18 milestone. This <a target="_blank" href="https://youtu.be/CninjoIkz8w">video</a> gives an overview of pipeline of the project and some preliminary results.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2018_iros_formation.png" width="200" alt="2018_iros_formation_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1dQK2N2NtH-nqh1t9T_hH5m-4lzrvxUIG/view?usp=sharing">
+                    <span class="papertitle">A distributed vision-based consensus model for aerial-robotic teams</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em></em>Intelligent Robot and Systems (IROS), Oct 2018 <span class="larger-space"></span> (<a target="_blank" href="https://youtu.be/fyET9AwJQQM?si=b-Q0_puGEf3esSMR">video</a>)
+                  <div class="br" data-space="medium"></div>
+                  Distributed model for a team of autonomous aerial robots to collaboratively track a target without external control.
+                  The model uses distributed consensus to coordinate actions and to maintain formation via geometric constraints.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>New job in TeV FBK</h2>
-          <time datetime="2012-04-06T08:15+00:00">Mon, 17<sup>th</sup> Oct 2016</time>
-          <p style="margin:5px;">
-          <div id="disapp_menu"><p align="justify">
-              Today I started a new research adventure in <a target="_blank" href="http://tev.fbk.eu/">Technologies of Vision</a> (<a target="_blank" href="http://fbk.eu/">Fondazione Bruno Kessler</a>) working under the H2020 project <a target="_blank" href="http://www.replicate3d.eu/">REPLICATE</a>. I will be working on 3D reconstruction from mobile phones, and Augmented and Virtual Reality. Stay tuned for new interesting publications.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2017_cvmp_smart.png" width="200" alt="2017_cvmp_smart_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1NLxE5wvqJA_LZoPon2wz6YCGEUqJYG7b/view?usp=sharing">
+                    <span class="papertitle">Cloud-based collaborative 3D reconstruction using smartphones</span> 
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Alex Locher, 
+                  Paul Chippendale, 
+                  Erica Nocerino, 
+                  Fabio Remondino, 
+                  Luc Van Gool
+                  <div class="br" data-space="small"></div>
+                  <em></em>European Conference on Visual Media Production (CVMP), Dec 2017 <span class="larger-space"></span> (<a target="_blank" href="https://youtu.be/bobWgdLtzIg?si=fepmRC9HrO3qGe_4">video</a>)
+                  <div class="br" data-space="medium"></div>
+                  Pipeline that enables multiple users to collaboratively acquire images with monocular smartphones and derive a 3D point cloud using a remote reconstruction server.
+                </td>
+              </tr>
 
-        <!----------------------------->
-          <!-- article -->
-          <article>
-            <h2>ECCV Workshop on Benchmarking Multi-target Tracking 2016</h2>
-            <time datetime="2012-04-06T08:15+00:00">Tue, 29<sup>th</sup> Aug 2016</time>
-            <p style="margin:5px;">
-            <div><p align="justify">My paper titled "Online multi-target tracking with strong and weak detections (<a target="_blank" href="./files/papers/conferences/2016_ECCVW_MultiTargetTrackingEarlyStrongDetections_Matilla_Poiesi_Cavallaro.pdf">link</a>)" (R. Sanchez Matilla, F. Poiesi and A. Cavallaro) has been accepted in the European Conference on Computer Vision Workshop (<a target="_blank" href="http://www.eccv2016.org/">ECCV</a> - <a target="_blank" href="https://motchallenge.net/workshops/bmtt2016/index.html">Benchmarking Multi-target Tracking: MOTChallenge 2016</a>). We participated to the challenge with a new multi-object tracker based on Probability Hypothesis Density Particle Filter (we named it EAMTT). At submission date EAMTT had the best online tracking results overall in MOT15 and MOT16 among the public trackers. Today (29/08) EAMTT is still ranked first in <a target="_blank" href="https://motchallenge.net/results/2D_MOT_2015/">MOT15</a> and is ranked second in <a target="_blank" href="https://motchallenge.net/results/MOT16/">MOT16</a>.</div></p>
-          </article>
-          <p style="margin:20px;">
-          <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2016_eccvw_phdf.png" width="200" alt="2016_eccvw_phdf_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/18WfFSR4N0FO3jGyv8r7QmLojh3bOLB50/view?usp=sharing">
+                    <span class="papertitle">Online multi-target tracking with strong and weak detections</span>
+                  </a>
+                  <br>
+                  Ricardo Sanchez-Matilla,
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em></em>European Conference on Computer Vision Workshops (ECCVW), Oct 2016 <span class="larger-space"></span>
+                  <div class="br" data-space="medium"></div>
+                  Online multi-target tracker that exploits both high- and low-confidence target detections in a Probability Hypothesis Density Particle Filter.
+                  High-confidence detections are used for label propagation and target initialization. 
+                  Low-confidence detections only support tracking existing targets.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Oral presentation at BMVC</h2>
-          <time datetime="2012-04-06T08:15+00:00">Tue, 23<sup>rd</sup> Aug 2016</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          My paper titled "Detection of fast incoming objects with a moving camera (<a target="_blank" href="./files/papers/conferences/2016_BMVC_DetectionFastIncomingObjects_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted as oral presentation in British Machine Vision Conference (<a target="_blank" href="http://bmvc2016.cs.york.ac.uk/">BMVC</a>). Have a look to the <a target="_blank" href="http://www.eecs.qmul.ac.uk/~andrea/avoidance.html">project page</a> for videos (and soon code!).</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2016_bmvc_foe.png" width="200" alt="2016_bmvc_foe_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/19OZTXDZ6L2VS7b_IthbetTArZXsOZDkf/view?usp=sharing">
+                    <span class="papertitle">Detection of fast incoming objects with a moving camera</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em></em>British Machine Vision Conference (BMVC), Sep 2016 <span class="larger-space"></span> (<a target="_blank" href="https://drive.google.com/open?id=1hQrOpAORYs9I1eSFGu5VO7z_imNvmulV">source code</a>)
+                  <div class="br" data-space="medium"></div>
+                  Moving object detection and avoidance algorithm for an uncalibrated camera that uses only the optical flow to predict collisions.
+                </td>
+              </tr> 
 
-      <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Paper accepted in IEEE Trans. on Circuits and Systems for Video Technology</h2>
-          <time datetime="2012-04-06T08:15+00:00">Sat, 21<sup>st</sup> May 2016</time>
-          <p style="margin:5px;">
-          <div><p align="justify">
-          My paper titled "Support Vector Motion Clustering (<a target="_blank" href="./files/papers/journals/2016_CSVT_SupportVectorMotionClustering_LawalPoiesiAnguitaCavallaro.pdf">link</a>)" (I.A. Lawal, F. Poiesi, D. Anguita and A. Cavallaro) has been accepted in IEEE Trans. on Circuits and Systems for Video Technology (<a target="_blank" href="http://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">TCSVT</a>).</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2015_iros_form.png" width="200" alt="2015_iros_form_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1umja0B2CU_YP20OMXCLAxdegU277j4Zk/view?usp=sharing">
+                    <span class="papertitle">Distributed vision-based flying cameras to film a moving target</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em></em>Intelligent Robot and Systems (IROS), Sep 2015 <span class="larger-space"></span> (<a target="_blank" href="https://www.youtube.com/watch?v=fyET9AwJQQM">video</a>)
+                  <div class="br" data-space="medium"></div>
+                  Infrastructure-free distributed control method for multiple flying cameras tracking a moving object. 
+                  Our vision-based servoing can deal with noisy and missing target observations, accounts for quadrotor oscillations and does not require an external positioning system.
+                </td>
+              </tr> 
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Best online multi-target tracker on MOT challenge</h2>
-          <time datetime="2012-04-06T08:15+00:00">Wed, 16<sup>th</sup> Dec 2015</time>
-          <p style="margin:5px;">
-          <p align="justify">We recently submitted our results to the <a target="_blank" href="https://motchallenge.net/">Multi Object Tracking challenge</a> and we ranked as <b>first</b> with our new Probability Hypothesis Density Particle Filter (PHD_PF) in the category of online trackers (second overall). Check the results out at these links <a target="_blank" href="https://motchallenge.net/results/2D_MOT_2015/">1</a>, <a target="_blank" href="https://motchallenge.net/tracker/PHD_PF">2</a>. Merry Christmas!</p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2013_avss_groups.png" width="200" alt="2013_avss_groups_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1NQk5f5Ul6BlbCB0Dc8_n-GpcgXSls11N/view?usp=sharing">
+                    <span class="papertitle">Detection and tracking of groups in crowd</span>
+                  </a>
+                  <br>
+                  Riccardo Mazzon,
+                  <strong>Fabio Poiesi</strong>,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em></em>Advanced Video and Signal-Based Surveillance (AVSS), Aug 2013 <span class="larger-space"></span> (<a target="_blank" href="https://www.youtube.com/watch?v=HDY44MLzRoA">video</a>)
+                  <div class="br" data-space="medium"></div>
+                  Detecting and tracking interacting people by employing a framework based on a Social Force Model. 
+                  We model people approaching a group and restrict the group formation based on the relative velocity of candidate group members.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Presentation at London Big-O Meetup</h2>
-          <time datetime="2012-04-06T08:15+00:00">Wed, 4<sup>th</sup> Nov 2015</time>
-          <p style="margin:5px;">
-          <p align="justify">I have been invited to present my work about formations of flying cameras to film a moving target at the London Big-O Meetup on Mon 9<sup>th</sup> (<a target="_blank" href="http://www.meetup.com/big-o-london/events/226338580/">link1</a>, <a target="_blank" href="https://skillsmatter.com/meetups/7483-unmanned-aircraft-system-concept-design-and-formations-of-flying-cameras-to-film-a-moving-target#overview">link2</a>). Just RSVP yourself if you want to attend. Before my presentation there will be Amrith presenting his work about conceptual design of Unmanned Aircraft Systems that considers communication systems, payload systems, propulsion system, avionics architecture, and many others. Presentations will start at 18.30.</p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:top">
+                  <img src="images/2010_icip_ball.png" width="200" alt="2010_icip_ball_png" style="border-style: none">
+                </td>
+                <td width="75%" valign="top">
+                  <a target="_blank" href="https://drive.google.com/file/d/1_e-RiKWLQDkRJglHPQwA1ZCHxyxD4X68/view?usp=sharing">
+                    <span class="papertitle">Detector-less ball localization using context and motion flow analysis</span>
+                  </a>
+                  <br>
+                  <strong>Fabio Poiesi</strong>,
+                  Fahad Daniyal,
+                  Andrea Cavallaro
+                  <div class="br" data-space="small"></div>
+                  <em></em>International Conference on Image Processing (ICIP), Sep 2010 <span class="larger-space"></span> (<a target="_blank" href="https://www.youtube.com/watch?v=pckFacsIWg4">video</a>)
+                  <div class="br" data-space="medium"></div>
+                  Estimating the location of the ball during a basketball game without using a detector. 
+                  We assume the ball is the point of focus of the game and that the motion flow of the players is dependent on its position during attack actions.
+                </td>
+              </tr>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Paper accepted at IROS 2015</h2>
-          <time datetime="2012-04-06T08:15+00:00">Wed, 29<sup>th</sup> Jul 2015</time>
-          <p style="margin:5px;">
-          <div><p align="justify">My paper titled "Distributed vision-based flying cameras to film a moving target (<a target="_blank" href="./files/papers/conferences/2015_IROS_DistributedFlyingCamerasFilmTarget_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted  to the IEEE/RSJ International Conference on Intelligent Robots and Systems (<a target="_blank" href="http://www.iros2015.org/">IROS</a>) 2015 held in Hamburg, Germany.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+          </tbody></table>
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-            <h2>Multi-target trajectory 3D visualiser is ONLINE</h2>
-            <time datetime="2012-04-06T08:15+00:00">Mon, 4<sup>th</sup> May 2015</time>
-            <p style="margin:5px;">
-            <p align="justify">The alpha web-version of the 3D visualiser for multi-target tracking results is <a target="_blank" href="http://3dviz.eecs.qmul.ac.uk">online</a>! If you like, there is a 2-minute <a target="_blank" href="https://www.youtube.com/watch?v=t-onJx4fGAc">video</a> on Youtube to briefly understand what I am talking about. You can upload your stuff and the visualiser will help you analysing, debugging and showing your results for scientific reports or papers. The visualiser appeared on this <a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">paper</a>. Just drop me an <a target="_blank" href="about.html">email</a> if you are interested in it, I will give you further details and make an account for you. Believe me that the visualiser will change your life :)</p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+          <!-- 
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Paper accepted at ISSNIP 2015</h2>
-          <time datetime="2012-04-06T08:15+00:00">Mon, 16<sup>th</sup> Mar 2015</time>
-          <p style="margin:5px;">
-          <div id="disapp_menu"><p align="justify">
-              My paper titled "Self-positioning of a team of flying smart cameras (<a target="_blank" href="./files/papers/conferences/2015_ISSNIP_SelfPositioningTeamFlyingCameras_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted  to the IEEE 10<sup>th</sup> International Conference on Intelligent Sensors, Sensor Networks and Information Processing (<a target="_blank" href="http://issnip2015.org/#/">ISSNIP</a>) 2015 held in Singapore.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
 
-      <!----------------------------->
-        <!-- article -->
-        <article>
-            <h2>ARTEMIS Co-summit and VISIGRAPP</h2>
-            <time datetime="2012-04-06T08:15+00:00">Sat, 07<sup>th</sup> Jan 2015</time>
-            <p style="margin:5px;">
-            <p align="justify">I am going to be in Berlin (GE) from the 9<sup>th</sup> to the 14<sup>th</sup> March attending the <a target="_blank" href="https://artemis-ia.eu/co-summit-2015/index.html">Artemis Co-summit 2015</a> (10/03-11/03) and <a target="_blank" href="http://www.visigrapp.org/">VISIGRAPP 2015</a> (11/03-14/03). I will be at the booth of <a target="_blank" href="http://copcams.eu">COPCAMS</a> during the Co-summit and at VISIGRAPP presenting the newly published 3D visualiser for tracking results (<a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">link</a>).</p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
+            miscellanea
 
-        <!----------------------------->
-        <!-- article -->
-        <article>
-          <h2>Paper accepted at IVAPP 2015</h2>
-          <time datetime="2012-04-06T08:15+00:00">Mon, 29<sup>th</sup> Dec 2014</time>
-          <p style="margin:5px;">
-          <div id="disapp_menu"><p align="justify">
-              My paper titled "MTTV: an interactive trajectory visualization and analysis tool (<a target="_blank" href="./files/papers/conferences/2015_IVAPP_MTTV_visualization_Poiesi_Cavallaro.pdf">link</a>)" (F. Poiesi and A. Cavallaro) has been accepted  to the 6<sup>th</sup> International Conference on Information Visualization Theory and Applications (<a target="_blank" href="http://www.ivapp.visigrapp.org/">IVAPP</a>) 2015 held in Berlin, Germany.</div></p>
-        </article>
-        <p style="margin:20px;">
-        <!----------------------------->
-        
-        <!----------------------------->
-        <!-- article -->
-        <article>
-            <h2>New website</h2>
-            <time datetime="2012-04-06T08:15+00:00">Mon, 29<sup>th</sup> Dec 2014</time>
-            <p style="margin:5px;">
-            <p align="justify">Welcome to my new website! I will do my best to keep it updated. In Home you will find all my recent activities and news. In Publications the list of my published works. In Data I will organise links to datasets that could be useful for different applications. In About me a brief description of who I am. I hope you will find this website useful :) I currently tested the website on <b>Chrome</b>, <b>FireFox</b> and <b>Safari</b>. So please use these browsers to make sure you have the best view of it.</p>
-        </article>
-        <!----------------------------->
 
-      </section>
-    </div>
-    
-    <!----------------------------->
-    <!----------------------------->
-    <!-- right column -->
-    <aside id="right_column">
-    <h2 class="title">Highlights</h2>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/CninjoIkz8w?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
+          -->
+          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+            <tr>
+              <td>
+                <h2 id="seminars">Seminars</h2>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+            
+            <tr>
+              <td style="padding:20px;width:25%;vertical-align:top"><img src="images/fabio_poiesi_seminar.png" width="200" height="130"></td>
+              <td width="75%" valign="top">
+                <strong>Point cloud deep descriptors and their application to machine perception</strong> (<a target="_blank" href="https://youtu.be/WgqIovuKU9M">video</a>)<br>
+                Shandong University, Jinan, China, Sep 2023
+                <div class="br" data-space="small"></div>
+                <strong>Deep machine vision in digital industry</strong> (<a target="_blank" href="https://youtu.be/2ztq2LcS_Mo">video</a>)<br>
+                Shandong University, Jinan, China, Nov 2022
+                <div class="br" data-space="small"></div>
+                <strong>Good practices learnt as a young PI</strong> (<a target="_blank" href="https://youtu.be/db3CcKYmNOI">video</a>)<br>
+                University of Trento, Trento, Italy, May 2022
+                <div class="br" data-space="small"></div>
+                <strong>Learning general 3D descriptors for point cloud data</strong><br>
+                Istituto Italiano di Tecnologia, Genoa, Italy, Sep 2020
+                <div class="br" data-space="small"></div>
+                <strong>Localising, understanding and manoeuvring</strong><br>
+                Politecnico di Torino, Turin, Italy, May 2019
+                <div class="br" data-space="small"></div>
+                <strong>H2020 REPLICATE</strong><br>
+                Towards Photogrammetry 2020, Trento, Italy, Jun 2018
+                <div class="br" data-space="small"></div>
+                <strong>Formations of flying cameras to follow and film a moving target</strong><br>
+                Czech Technical University, Prague, Czech Republic, Mar 2016
+                <div class="br" data-space="small"></div>
+                <strong>Formations of flying cameras to film a moving target</strong> (<a target="_blank" href="https://youtu.be/pWmsslZHde4">video</a>)<br>
+                The London Big-O Meetup, Skills Matter, London, United Kingdom, Nov 2015
+                <div class="br" data-space="small"></div>
+                <strong>Multi-target tracking on confidence maps: an application to people tracking</strong><br>
+                University of Verona, Verona, Italy, Jun 2014
+              </td>
+            </tr>
+              
+          </tbody></table>
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+              <td style="padding:0px">
+                <br>
+                <p style="text-align:center;font-size:small;">
+                  Feel free to steal this website's <a href="https://github.com/fabiopoiesi/fabiopoiesi.github.io">source code</a>. Consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  <br>
+                  <a href="legacy/publications.html">Link</a> to my legacy publication page.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
         </td>
       </tr>
     </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/fyET9AwJQQM?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/D6ZX3czVTbk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/zNuabwxDBHk?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/-4i0qg9DdGg?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/pp8HQEQ-INU?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/HDY44MLzRoA?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    <p>&nbsp;</p>
-    <table border="0">
-      <tr>
-        <td><div align="left"><iframe width="288" height="180" src="https://www.youtube.com/embed/pckFacsIWg4?rel=0&hd=1" frameborder="0" allowfullscreen></iframe></div>
-        </td>
-      </tr>
-    </table>
-    </aside>
-    <!----------------------------->
-    <!----------------------------->
-    
-    <!-- / content body -->
-    <dxiv class="clear"></div>
-  </div>
-</div>
-
-<!----------------------------->
-<!----------------------------->
-<!----------------------------->
-<!-- footer -->
-<div class="wrapper row3">
-  <footer id="footer">
-    <p class="fl_left">Copyright &copy; 2015 - All Rights Reserved - <a href="#">fabio-poiesi.com</a></p>
-    <p class="fl_right">Thanks to <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <div class="clear"></div>
-  </footer>
-</div>
-</body>
-
+  </body>
 </html>
